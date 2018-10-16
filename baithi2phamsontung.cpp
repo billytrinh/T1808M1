@@ -9,5 +9,5 @@ int main()
     ps=s;
     strupr(ps);
     printf("%s",s);
-   
+   //chinh sua
 }  
