@@ -4,7 +4,6 @@ body{
 	background-color: #282828;
 }
 section{
-	background-color: #282828;
 	display: flex;
 }
 nav{
@@ -72,8 +71,6 @@ button:hover{
 	background-color: #282828;
 	color: red;
 }
-
-
 
 
 
