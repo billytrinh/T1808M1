@@ -1,0 +1,29 @@
+div{
+	background: white;
+}
+img{width: 50px}
+a{
+	font-size: 15px;
+	color: gray;
+	text-align: justify;
+	}
+p{font-size: 15px;
+  color: orange;
+  text-align: center;	
+	}
+.item{
+	background-color: white;
+	text-align:center;
+	border:70px dashed white;
+	float: left;
+	width: 90px;
+
+	margin-top: 70px;
+	display: block;
+	width: 200px;
+
+	margin-left: 20px;
+	text-align: center;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+}
