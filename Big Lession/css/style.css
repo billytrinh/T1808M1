@@ -230,6 +230,69 @@ section .main .items .item {
 	text-align: center; 
 
 }
+section .main .items .itemclicked {
+	display: block;
+	position: relative;
+	background-color: #fff;
+	margin-left: 30px;
+	height: 360px;
+	width: 250px;
+	text-align: center; 
+
+}
+section .main .items .itemclicked img{
+	position: absolute;
+	bottom: 50%;
+	right: 10%;
+	transform: scale(0.3);
+}
+section .main .items .itemclicked a{
+	position: absolute;
+	top: 33%;
+	right: 20%;
+	text-decoration: none;
+	color: orange;
+	font-weight: 900;
+}
+section .main .items .itemclicked p{
+	position: absolute;
+	top: 43%;
+	right: 30%;
+}
+section .main .items .itemclicked .color a{
+	display: block;
+	position: absolute;
+	width: 1px;
+	padding: 5px;
+	background-color: #000;
+	border-radius: 10px;
+	top: 65%;
+	text-align: center;
+}
+section .main .items .itemclicked .color .red{
+	background-color: red;
+	left: 33%;
+}
+section .main .items .itemclicked .color .black{
+	background-color: black;
+	left: 43%;
+}
+section .main .items .itemclicked .color .blue{
+	background-color: blue;
+	left: 53%;
+}
+section .main .items .itemclicked .color .green{
+	background-color: green;
+	left: 63%;
+}
+section .main .items .itemclicked .buyicon{
+	position: absolute;
+	top: 85%;
+	left: 25%;
+	letter-spacing: 10px;
+	font-size: 24px;
+	cursor: pointer;
+}
 section .main .items .item img{
 	margin-top: 30px;
 }
@@ -330,6 +393,7 @@ footer .foot .listlink{
 footer .foot .listlink ul li a{
 	line-height: 30px;
 	text-decoration: none;
+	color: #34404b;
 }
 footer .foot .paymen{
 	position: absolute;
