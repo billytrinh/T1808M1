@@ -1,0 +1,31 @@
+div{
+	background-color: white;
+}
+img{
+	width: 200px;
+}
+a{
+	font-size: 15px;
+	color: gray;
+	font-weight: 400; /*100 300 400 500 600 700 800 900;*/
+	font-family: Arial;
+	line-height: 22.5px;
+	text-decoration: none;/* overline underline line-through */
+	text-align: center;/* left  right center justify */
+}
+ 
+.item{
+	display: block;
+	padding: 15px;
+	width: 200px;
+	height: 400px;
+	margin-left: 20px;
+	background-color: white;
+	float: left; /* left right none */
+	text-align: center;
+}
+.item a span{
+	color:yellow;}
+	body{
+		background-color: #f4f6f8;
+	}
