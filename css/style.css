@@ -1,0 +1,45 @@
+div{
+	background-color: #white;
+}
+.body{
+	margin: 0;
+	padding: 0;
+	background-color:#white;
+	font-family: sifonn;
+}
+.container{
+	display: flex;
+	padding: 20px;
+	margin-left: 20%;
+}
+img{
+	padding: 15px;
+	margin: 0 auto;
+}
+.item{
+	display: block;
+	width: 200px;
+	background-color: #f4f6f8;
+	margin-left: 50px;
+	text-align: center;
+	/*box-shadow: 10px 10px 10px rgba(0,0,0,.5);*/
+	transition: 0.5s;
+	cursor: pointer;
+}
+nav ul li a:hover:before{
+	transform-origin: left;
+	transform: scaleX(1);
+}
+.nameitem{
+	top: 10px;
+	font-size: 15px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+.price{
+	padding: 10px;
+	color: rgb(255,0,0);
+}
