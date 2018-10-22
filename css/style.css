@@ -1,5 +1,8 @@
+body{
+	background-color: gray;} 
+
 div{
-	background-color: white;}
+	background-color: gray;}
 img{
 	width: 100px;
 }
