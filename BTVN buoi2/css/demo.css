@@ -1,0 +1,39 @@
+div{
+    background-color:  #d8dbde;
+}
+
+body{
+    background-color: grey;
+}
+
+img{
+    width: 150px;
+}
+
+#item1{
+    background-color: white;
+}
+
+a{
+    font-family: 'Times New Roman';
+    line-height: 22.5px;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    color: black;
+    padding: red;
+}
+
+.item{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    color: blue;
+    margin: 15px;
+}
+
+.item a span{
+    color: white;
+}
