@@ -26,9 +26,6 @@ img{
 	transition: 0.5s;
 	cursor: pointer;
 }
-nav ul li a:hover:before{
-	transform-origin: left;
-	transform: scaleX(1);
 }
 .nameitem{
 	top: 10px;
