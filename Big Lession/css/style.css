@@ -230,6 +230,12 @@ section .main .items .item {
 	text-align: center; 
 
 }
+section .main .items .item:hover{
+	box-shadow: 0 0 10px 10px rgba(0,0,0,.2);
+}
+section .main .items .itemclicked:hover{
+	box-shadow: 0 0 10px 10px rgba(0,0,0,.2);
+}
 section .main .items .itemclicked {
 	display: block;
 	position: relative;
@@ -238,6 +244,7 @@ section .main .items .itemclicked {
 	height: 360px;
 	width: 250px;
 	text-align: center; 
+	
 
 }
 section .main .items .itemclicked img{
