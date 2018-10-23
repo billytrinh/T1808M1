@@ -24,8 +24,8 @@ a{
 }
 .item{
 	background-color: white;
-	width: 300px;
-	height: 400px;
+	width: 400px;
+	height: 300px;
 	float: left; /* left right none */
 	text-align: center;
 	color: black;
