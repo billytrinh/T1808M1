@@ -295,22 +295,6 @@ u{
 .green{
 	background: green;
 }
-.red:fucus{
-	background: red;
-	border: 4px solid #34404b;
-}
-.black:focus{
-	background: black;
-	border: 4px solid #34404b;
-}
-.blue:focus{
-	background: blue;
-	border: 4px solid #34404b;
-}
-.green:focus{
-	background: green;
-	border: 4px solid #34404b;
-}
 .buy a{
 	font-size: 16pt;
 	color: #34404b;
