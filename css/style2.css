@@ -1,0 +1,155 @@
+.section{
+	float: left;
+	width: 100%;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #fff;
+	height: 100%;
+}
+.img1{
+	width: 230px;
+	height: 189px;
+}
+.item{
+	background-color: #fff;
+	width: 260px;
+	height: 163px;
+	float: left; /* left right none */
+	text-align: left;
+	margin:5px;
+	padding:13px;
+	border-radius: 0px;
+}
+.item1{
+	background-color: #fff;
+	width: 170px;
+	height: 110px;
+	float: left; /* left right none */
+	text-align: center;
+	margin:5px;
+	padding:50px;
+	border-radius: 10px;
+}
+.b{
+	background-color: none;
+	width: 840px;
+	height: 760px;
+	float: left; /* left right none */
+	text-align: center;
+	margin:5px;
+	padding:5px;
+	border-radius: 10px;
+}
+.section_1{
+	background-color: green;
+	height: 100px;
+}
+.section_1_left{
+	float:left;
+	width: 50%;
+	height: 100%;
+	background-color: darkred;
+}
+.section_1_right{
+	float:left;
+	width: 50%;
+	height: 100%;
+	background-color: orange;
+}
+ .section_2{
+	background-color: darkgreen;
+	height: 100px;
+}
+.section_2_1{
+	float:left;
+	width: 20%;
+	height: 100%;
+	background-color: red;
+}
+.section_2_2{
+	float:left;
+	width: 60%;
+	height: 100%;
+	background-color: gray;
+}
+.section_2_3{
+	float:left;
+	width: 20%;
+	height: 100%;
+	background-color: #dedede;
+}
+ .section_3{
+	background-color: blue;
+	height: 800px;
+}
+.section_3_1{
+	float:left;
+	width: 25%;
+	height: 100%;
+	background-color: yellow;
+}
+.section_3_2{
+	float:left;
+	width: 75%;
+	height: 100%;
+	background-color: violet;
+}
+ .section_4{
+	background-color: orange;
+	height: 100px;
+}
+.section_4_1{
+	float:left;
+	background-color: white;
+	text-align: center;
+	width:50%;
+	height: 100px;
+}
+.section_4_2{
+	float:left;
+	background-color: blue;
+	text-align: center;
+	width:50%;
+	height: 100px;
+}
+.section_5{
+	background-color: red;
+	height: 100px;
+	
+}
+.section_5_1{
+	float:left;
+	width: 20%;
+	height: 100%;
+	background-color: blue;
+}
+.section_5_2{
+	float:left;
+	width: 10%;
+	height: 100%;
+	background-color: red;
+}
+.section_5_3{
+	float:left;
+	width: 20%;
+	height: 100%;
+	background-color: red;
+}
+.section_5_4{
+	float:left;
+	width: 10%;
+	height: 100%;
+	background-color: red;
+}
+.section_5_5{
+	float:left;
+	width: 40%;
+	height: 100%;
+	background-color: red;
+}
+.container a span{
+	color:yellow;
+}
+
