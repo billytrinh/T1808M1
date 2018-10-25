@@ -3,67 +3,137 @@
 	width: 100%;
 }
 .container{
-	width: 1170px;
+	width: 1200px;
 	margin: 0 auto;
-	background-color: #fff;
+	background-color:#ffffff;
 	height: 100%;
 }
-
 .section_1{
-	background-color: green;
-	height: 100px;
+	background-color: #ffffff;
+	height: 80px;
 }
 .section_1_left{
 	float:left;
 	width: 50%;
 	height: 100%;
-	background-color: darkred;
+}
+.logo{
+	display: flex;
+}
+.logo img{
+	width:30px;
+	margin-right: 10px;
+}
+.logo b{
+	margin-right: 10px;
 }
 .section_1_right{
-	float:left;
+	float:right;
 	width: 50%;
 	height: 100%;
-	background-color: orange;
 }
-
+.logo1{
+	display:flex;
+	float:right;
+}
+.logo1 img{
+	width: 120px;
+}
 .section_2{
-	background-color: darkgreen;
-	height: 100px;
+	background-color: #ffffff;
+	height: 200px;
 }
 .section_2_1{
 	float:left;
 	width: 20%;
-	height: 100%;
-	background-color: red;
+	height: 20%;
+	background-color:#ffffff;
+}
+.logo2 img{
+	width:150px;
 }
 .section_2_2{
 	float:left;
 	width: 60%;
-	height: 100%;
-	background-color: gray;
+	height: 60%;
+	background-color:#ffffff;
+}
+.section_2_2 p{
+	float:left;
+	font-size: 20px;
+	margin-right: 20px;
+}
+.font1{
+	color:orange;
 }
 .section_2_3{
 	float:left;
 	width: 20%;
 	height: 100%;
-	background-color: #dedede;
+	background-color: #ffffff;
+}
+.logo3 img{
+	float:right;
+	margin-left: 40px;
 }
 
 .section_3{
-	background-color: blue;
+	background-color: #ffffff;
 	height: 800px;
+	width: 100%;
 }
 .section_3_1{
 	float:left;
 	width: 25%;
 	height: 100%;
-	background-color: yellow;
+	background-color:  #ffffff;
+}
+.section_3_1_1{
+	float:left;
+	width:100%;
+	height: 27%;
+	background-color:  #ffffff;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.section_3_1_1 ul{
+	list-style: none;
+	padding: 0;
+	float: left;
+}
+.section_3_1_1 ul li{
+	margin-bottom: 20px;
+}
+.font2{
+	color:orange;
+}
+.section_3_1_2{
+	float:left;
+	width:100%;
+	height: 19%;
+	background-color:  #ffffff;
+	font-size: 20px;
+}
+.section_3_1_2 input{	
+	width:50px;
+}
+.section_3_1_3{
+	float:left;
+	width:100%;
+	height: 27%;
+	background-color:  #ffffff;
+}
+.section_3_1_4{
+	float:left;
+	width:100%;
+	height: 27%;
+	background-color:  #ffffff;
 }
 .section_3_2{
 	float:left;
 	width: 75%;
 	height: 100%;
-	background-color: violet;
+	background-color: blue;
 }
 
 
