@@ -1,12 +1,12 @@
 body{
-	background-color: #f4f6f8;
+	background-color: red;
 }
 
 div{
 	background-color: white;
 }
 img{
-	width: 50px;
+	width: 60px;
 }
 a{
 	font-size: 15px;
@@ -19,7 +19,7 @@ a{
 }
 
 .item{
-	background-color: #fff;
+	background-color: white;
 	width: 230px;
 	height: 200px;
 	float: left; /* left right none */
@@ -35,12 +35,41 @@ a{
 	background-color: white;
 	width: 100px;
 	height: 50px;
-
+     font-family: Arial;
 	float: left;
-	margin-top: 30px;
+	margin-top: 45px;
 	text-align: center;
 }
+.o1{
+	width:80%;
+	text-align: left;
+	margin: 15px;
+	padding: 15px;
 
+}	
+.p1 { 
+	font-size: 15px;
+	margin-left: 50px;
+	font-weight: 700px;
+     }
+
+
+.o2{
+	width: 80%;
+	height: 12%;
+	margin: 15px;
+	padding: 15px;
+}
+.o3{
+	width: 80%;
+	margin: 15px;
+	padding: 15px;
+}
+.o4{
+	width: 80%;
+	margin: 15px;
+	padding: 15px;
+}
 /* chia layout */
 .section{
 	float: left;
@@ -49,7 +78,7 @@ a{
 .container{
 	width: 1170px;
 	margin: 0 auto;
-	background-color: #fff;
+	background-color: #f4f6f8;
 	height: 100%;
 }
 
@@ -69,11 +98,14 @@ a{
 	margin: 0 auto;
 
 }
-.m{
+.m{ float: left;
 	margin-top: 30px;
-	width: 130px;
-	height: 60px;
 	margin-left: 40px;
+}
+.m1{
+   float: left;
+   text-align: center;
+   margin-top: 40px;
 }
 .section_1_right{
 	float:left;
@@ -101,7 +133,7 @@ a{
 }
 .lk{
 	float: right;
-	margin-top: 50px;
+	margin-top: 30px;
 	text-align: center;
 }
 .section_2_1{ 	
@@ -126,20 +158,23 @@ a{
 
 .section_3{
 	background-color: blue;
-	height: 800px;
+	height: 900px;
 
 	}
 .section_3_1{
 	float:left;
+	text-align: left;
 	width: 25%;
 	height: 100%;
-	background-color: yellow;
+	background-color: #f4f6f8;
+}
+
 }
 .section_3_2{
 	float:left;
 	width: 75%;
 	height: 100%;
-	background-color: #f2f4f6;
+	background-color: #f4f6f8;
 }
 
 
@@ -151,3 +186,4 @@ a{
 	background-color: red;
 	height: 100px;
 }
+
