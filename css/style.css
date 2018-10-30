@@ -6,7 +6,7 @@ div{
 	background-color: red;
 }
 img{
-	width: 50px;
+	
 }
 a{
 	font-size: 15px;
@@ -27,9 +27,61 @@ a{
 	margin:15px;
 	padding:15px;
 	border-radius: 10px;
+	overflow: hidden;
+	animation-name: example;
+    animation-duration: 2s;
+   	animation-iteration-count: 1;
 }
 .item a span{
 	color:yellow;
+}
+.item span{
+	margin-top: 10px;
+	margin-bottom: 40px;
+	float: left;
+	width: 100%;
+}
+.item img{
+	/*transform: translate(20px,50px);*/
+	/*transform: rotate(60deg);*/
+	/*transform: scale(0.5);*/
+	/* transform: matrix(1, -0.3, 0, 1, 0, 0);*/
+	transition: 200ms all;
+}
+.item .box > div{
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	border-radius: 100%;
+	display: inline-block;
+}
+/* Hover item */
+.item *{
+	transition: 200ms all;
+}
+.item:hover img{
+	transform:scale(0.5) translateY(-100px);
+}
+.item:hover figcaption{
+	transform: translateY(-100px);
+}
+.item:hover span{
+	display: none;
+}
+.item:hover p{
+	transform: translateY(-50px);
+}
+.item:hover .box{
+	transform: translateY(-50px);
+}
+
+@keyframes example {
+    from {
+    	transform: scale(1);
+    }
+    to {
+    	transform: scale(0.5);
+    }
 }
 
 
