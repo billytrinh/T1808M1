@@ -11,7 +11,7 @@ a{
 font-size: 20px;
 color:black;
 font-weight: 700;
-font-family:Arial;
+font-family:'Poor Story', cursive;
 line-height: 22.5px;
 text-decoration: none;
 }
@@ -34,6 +34,7 @@ text-decoration: none;
 }
 
 .idd{
+	font-family: 'Poor Story', cursive;
 	font-size: 20px;
 	font-weight: 700;
 	color: orange;
@@ -242,7 +243,7 @@ body{
 	font-size: 25px;
 	font-weight: 600;
 	color: orange;
-	font-family: 'Oswald';  
+	font-family: 'Baloo Bhaijaan', cursive; 
 }
 .Loai2{
 	text-align: left;
@@ -251,7 +252,7 @@ body{
 }
 .Loai2 a{
 	font-size: 18px;
-	font-family: 'Oswald';
+	font-family: 'Baloo Bhaijaan', cursive;
 	font-weight: 600;
 	color: black;
 }
@@ -262,7 +263,7 @@ body{
 }
 .Loai3 a{
     font-size: 18px;
-	font-family: 'Oswald';
+	font-family: 'Baloo Bhaijaan', cursive;
 	font-weight: 600;
 	color: black;
 }
@@ -273,7 +274,7 @@ body{
 }
 .Loai4 a{
 	font-size: 18px;
-	font-family: 'Oswald';
+	font-family: 'Baloo Bhaijaan', cursive;
 	font-weight: 600;
 	color: black;
 }
@@ -285,7 +286,7 @@ body{
 }
 .Loai5 a{
 	font-size: 18px;
-	font-family: 'Oswald';
+	font-family: 'Baloo Bhaijaan', cursive;
 	font-weight: 600;
 	color: black;
 }
@@ -304,7 +305,7 @@ body{
 	font-size: 25px;
 	font-weight: 600;
 	color: orange;
-	font-family: 'Oswald'; 
+	font-family: 'Baloo Bhaijaan', cursive;
 }
 .Gia2{
 	text-align: left;
@@ -312,7 +313,7 @@ body{
 }
 .Gia2 a{
 	font-size: 18px;
-	font-family: 'Oswald';
+	font-family:'Baloo Bhaijaan', cursive;
 	font-weight: 600;
 	color: black;
 	float: left;
@@ -328,7 +329,7 @@ body{
 }
 .Gia3 a{
 	font-size: 18px;
-	font-family: 'Oswald';
+	font-family:'Baloo Bhaijaan', cursive;
 	font-weight: 600;
 	color: black;
 	float: left;
@@ -354,7 +355,7 @@ body{
 }
 .KichCo1 a{
 	color: orange;
-	font-family: 'Oswald';
+	font-family:'Baloo Bhaijaan', cursive;
 	font-size: 25px;
 	text-align: left;
 }
@@ -364,10 +365,12 @@ body{
 	margin-left: 15px
 }
 .KichCo2 span{
+	font-family: 'Baloo Bhaijaan', cursive;
 	font-size: 20px;
 	font-weight: 600;
 }
 .NhanHieu{
+	font-family: 'Baloo Bhaijaan', cursive;
 	width: 80%;
 	height: 17%;
 	padding: 15px;
@@ -381,7 +384,7 @@ body{
 	text-align: center;
 }
 .cuoi_1 span{
-	font-family: Arial;
+	font-family: 'Patrick Hand', cursive;
 	color: #28313b
 }
 .cuoi_1 img{
