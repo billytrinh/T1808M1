@@ -1,5 +1,5 @@
 body{
-	background-color: red;
+	background-color: none;
 }
 
 div{
@@ -8,7 +8,7 @@ div{
 
 
 a{
-	font-size: 10px;
+	font-size: 15px;
 	color: gray;
 	font-weight: 700; 
 	font-family: 'Poor Story', cursive;
@@ -51,7 +51,7 @@ a{
 
 }	
 .p1 {
-	font-size: 10px;
+	font-size: 15px;
 	margin-left: 50px;
 	font-weight: 700px;
      }
@@ -75,7 +75,7 @@ a{
 }
 
 .section{
-	float: left;
+	
 	width: 100%;
 }
 .container{
@@ -86,6 +86,7 @@ a{
 }
 
 .info{
+	background-color: #f4f6f8;
 	margin-left: 90px;
 	text-align: center;
 	margin: 15px;
@@ -95,7 +96,7 @@ a{
 
 .section_1{
 
-	background-color: green;
+	background-color: white;
 	height: 100px;
 
 }
@@ -105,6 +106,36 @@ a{
 	height: 100%;
 	background-color: white;
 	margin: 0 auto;
+
+}
+.ss1{
+	margin-bottom: 1px;
+	width: 100%;
+	height: 99%;
+}
+.lienket{
+	margin-top: 30px;
+	margin-right: 70px;
+}
+.lienket2{
+	margin-right: 70px;
+	margin-top: 25px;
+}
+.fab{
+	float: right;
+	text-align: center;
+	font-size: 10px;
+	margin: 10px;
+	padding: 10px;
+
+}
+.fas{
+	float: right;
+	text-align: center;
+	font-size: 15px;
+	margin: 10px;
+	padding: 10px;
+
 
 }
 .m{ float: left;
@@ -118,14 +149,14 @@ a{
    margin-top: 40px;
 }
 .section_1_right{
-	float:left;
+	float: right;
 	width: 50%;
 	height: 100%;
 	background-color: white;
 }
 
 .section_2{
-	background-color: darkgreen;
+	background-color: white;
 	height: 100px;
 }
 .lg {
@@ -138,11 +169,7 @@ a{
     margin-top: 30px;
 
 }
-.lk{
-	float: right;
-	margin-top: 30px;
-	text-align: center;
-}
+
 .section_2_1{ 	
 	float:left;
 	text-align: center;
@@ -153,7 +180,7 @@ a{
 }
 .section_2_2{
 	float:left;
-	width: 60%;
+	width: 50%;
 	height: 100%;
 	background-color: white;
 }
@@ -161,28 +188,34 @@ a{
 
 .section_2_3{
 	float:left;
-	width: 20%;
+	width: 30%;
 	height: 100%;
 	background-color: white;
 }
 .section_3 img{
 	width: 80px;
 }
+
 .chon{
+	background-color: white;
 	margin-left: 400px;
 }
 .dieukhoan{
+	background-color: #f4f6f8;
 	text-align: center;
-	margin-top: 30px;
+	}
+.dieukhoan a{
+	font-size: 20px;
 }
 .dangky{
 	text-align:left;
 	width: 400px;
 	height: 50px;
 	border-radius: 5px;
+	font-size: 30px;
 }
 .nut1{
-	margin-top: 20px;
+	
 	text-align: center;
 	width: 200px;
 	height: 50px;
@@ -192,24 +225,37 @@ a{
 }
 .nut{
 	text-align: center;
+	background-color: #f4f6f8;
 	
 }
 .nut2{
+	background-color: #f4f6f8;
 	text-align: center;
-	margin-top: 20px;
+}
+.nut2 a{
+	font-size: 20px;
 }
 .menu{
-	background-color: white;
+	background-color: #f4f6f8;
 	width: 1170px;
 	margin: 0 auto;
 	height: 100%;
+	font-size: 20px;
+}
+.menu1{
+	background-color: #f4f6f8;
+}
+.nen{
+	background-color: #f4f6f8;
+}
+.chon a{
 	font-size: 20px;
 }
 .info img{
 	width: 190px;
 }
 .section_3 {
-	background-color: blue;
+	background-color: white;
 	height: 870px;
 
 	}
@@ -231,7 +277,7 @@ a{
 
 
 .section_4{
-	background-color: orange;
+	background-color: white;
 	height: 100px;
 }
 .thamgia{
@@ -288,7 +334,7 @@ a{
 }
 
 .section_5{
-	background-color: red;
+	background-color: white;
 	height: 200px;
 }
 .dcuoi{
@@ -307,6 +353,7 @@ a{
 	text-align: center;
 }
 .cuoi_1 a{
+	font-size: 10px;
 	margin-bottom: 5px;
 	font-family: Arial;
 	text-align: center;
@@ -315,6 +362,7 @@ a{
 	margin-right: 50px;
 }
 .cuoi_2{
+	background-color: white;
 	height: 100%;
 	width: 51%;
 	float: left;
