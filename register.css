@@ -11,7 +11,7 @@ a{
 font-size: 20px;
 color:#000000;
 font-weight: 700;
-font-family:Arial;
+font-family:'Poor Story', cursive;
 line-height: 22.5px;
 text-decoration: none;
 }
@@ -112,6 +112,7 @@ body{
 	text-align: left;
 }
 .section_32 span{
+	font-family:'Lobster', cursive; 
 	font-size: 30px;
 	color: gray;
 	margin-left: 300px;
@@ -255,7 +256,7 @@ body{
 	text-align: center;
 }
 .cuoi_1 span{
-	font-family: Arial;
+	font-family:  'Patrick Hand', cursive;
 	color: #28313b
 }
 .cuoi_1 img{
