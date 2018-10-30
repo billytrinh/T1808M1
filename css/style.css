@@ -1,0 +1,206 @@
+body{
+	padding: 0;
+	font-family: 'Maven Pro', sans-serif;
+	background-color: #f4f6f8;
+}
+a:hover{
+	color: orange;
+}
+header{
+	background-color: #fff;
+	height: 150px;
+}
+.container{
+	margin: 0 auto;
+	width: 1170px;
+}
+header .contact{
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+}
+header .mail{
+	float: left;
+	width: 50%;
+	height: 100%;
+	margin-top: 10px;
+}
+header .mail a{
+	margin-right: 30px;
+	color: #34404b;
+	text-decoration: none;
+}
+header .mail a i{
+	color: orange;
+	letter-spacing: 5px;
+}
+header .snsicon{
+	margin-top: 10px;
+	text-align: right;
+	letter-spacing: 10px;
+	float: left;
+	width: 50%;
+	height: 100%;	
+}
+header .snsicon a{
+	color: #34404b;
+	transition: 0.3s;
+}
+header .snsicon a:hover{
+	color: orange;
+}
+nav{
+	background-color: #fff;
+	display: flex;
+	float: left;
+	width: 100%;
+	height: 100px;
+}
+nav .logo{
+	width: 20%;
+	margin-top: 10px;
+}
+nav .menu{
+	display: flex;
+	width: 60%;
+	list-style: none;
+	line-height: 20px;
+}
+nav .menu li a{
+	font-family: 'Maven Pro', sans-serif;
+	text-decoration: none;
+	margin-right: 30px;
+	color: #34404b;
+	font-size: 16pt;
+	transition: 0.3s;
+}
+nav .menu li a:hover{
+	color: orange;
+}
+nav .icon {
+	width: 20%;
+	text-align: right;
+	letter-spacing: 10px;
+	line-height: 50px;	
+}
+
+nav .icon a{
+	color: #34404b;
+	transition: 0.3s;
+	font-size: 16pt;
+}
+nav .icon a:hover{
+	color: orange;
+}
+.register1 {
+	width: 800px;
+	margin: 0 auto;
+}
+.avatar {
+	text-align: center;
+}
+.register1 i{
+	margin-top: 57px;
+	font-size: 196px;
+	text-align: center;
+}
+.form {
+	text-align: 0 auto;
+}
+.form3 input {
+	width: 100%;
+	height: 60px;
+	margin-bottom: 30px;
+}
+.form u{
+	font-size: 25pt;
+	color: #b7b9ba;
+	text-decoration: none;
+}
+.form1 input{
+	width: 50px;
+	height: 30px;
+	margin-left: 100px;
+	margin-top: 58px;
+	margin-bottom: 68px;
+}
+.form1 u{
+	font-size: 18pt;
+	color: #b7b9ba;
+	text-decoration: none;
+}
+button{
+	font-size: 38pt;
+	color: white;
+	background-image: linear-gradient(to right, rgba(0,0,255,.7), rgba(50,50,255,.3));
+	border-radius: 30px;
+	width: 300px;
+	padding: 40px;
+}
+.form2 {
+	text-align: center;
+}
+.form3 {
+	float:left;
+	width: 100%;
+}
+.register1 a {
+	display: block;
+	color:#334b91;
+	font-size: 40pt;
+	margin-top:35px;
+	text-align: center;
+	margin-bottom: 88px;
+}
+footer{
+	width: 100%;
+	height: 180px;
+	background-color: #fff;
+}
+.containerfoot{
+	width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+footer .logo{
+	width: 20%;
+	margin-top: 60px;
+}
+.logo h5{
+	opacity: 0.5;
+	letter-spacing: 2px;
+	font-size: 8pt;
+}
+footer .listlink{
+	display: flex;
+	width: 50%;
+	margin-top: 30px;
+}
+
+.listlink ul li a{
+	text-decoration: none;
+	margin-bottom: 10px;
+	color: #34404b;
+}
+footer .payment {
+	width: 30%;
+	display: block;
+}
+.payment p{
+	font-style: italic;
+	color: orange;
+	letter-spacing: 2px;
+	font-size: 24pt;
+	float: right;
+	font-weight: 600;
+	font-size: 28pt;
+}
+.payment .card i{
+	letter-spacing: 2px;
+	font-size: 24px;
+	color: #34404b;
+	float: right;
+	letter-spacing: 10px;
+}
