@@ -138,7 +138,7 @@ section{
 	display: block;
 	background-color: #fff;
 	width: 100%;
-	height: 250px;
+	height: 170px;
 }
 .pricefilter p{
 	font-family: 'Oswald', sans-serif;
@@ -160,17 +160,13 @@ u{
 	padding: 5px;
 }
 .pricefilter button{
-	margin: 35px 80px;
+	margin: 15px 70px;
 	width: 50px;
 	padding: 10px;
 	outline: none;
 	background-color: orange;
 	width: 85px;
 	cursor: pointer;
-}
-.pricefilter img{
-	margin-left: 30px;
-	margin-bottom: 20px; 
 }
 .size{
 	display: block;
@@ -191,9 +187,6 @@ u{
 	font-size: 16pt;
 	color: #34404b;
 	margin-left: 30px;
-}
-.color123 {
-	color:orange;
 }
 .brand{
 	display: block;
@@ -240,7 +233,7 @@ u{
 	font-weight: 600;
 	font-size: 16pt;
 	text-decoration: none;
-	color: black;
+	color: #34404b
 	margin-bottom: 30px;
 }
 .item:hover{
@@ -256,7 +249,6 @@ u{
 }
 .item img{
 	transition: 0.3s;
-	margin-top: 30px;
 }
 .item:hover img{
 	position: absolute;
@@ -266,14 +258,13 @@ u{
 }
 .item:hover .price{
 	visibility: hidden;
-	color: #ff5912;
 }
 .item:hover .name{
 	position: absolute;
 	top: 35%;
 	left: 15%;
 	font-weight: 800;
-	color: #ff6833;
+	color: orange;
 }
 .hover{
 	margin: 0 auto;
@@ -293,16 +284,16 @@ u{
 	margin-bottom: 15px;
 }
 .red{
-	background: #e12e3f;
+	background: red;
 }
 .black{
-	background: #34404b;
+	background: black;
 }
 .blue{
-	background: #3ab3ff;
+	background: blue;
 }
 .green{
-	background: #2fd967;
+	background: green;
 }
 .red:fucus{
 	background: red;
@@ -369,16 +360,16 @@ u{
 }
 .big{
 	text-transform: uppercase;
-	font-family: 'PT+Serif:700', sans-serif;
-	font-weight: 600;
-	font-size: 30px;
-	color: #ff5912;
-	letter-spacing: 0px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 900;
+	font-size: 32px;
+	color: orange;
+	letter-spacing: 5px;
 }
 .small{
-	font-family: 'KoHo', cursive;
+	font-family: 'Charmonman', cursive;
 	margin-left: 30px;
-	font-size: 15pt;
+	font-size: 16pt;
 }
 .form{
 	width: 40%;
@@ -386,12 +377,12 @@ u{
 }
 .join{
 	padding: 10px;
-	background-color: #ff5912;
+	background-color: orange;
 	outline: none;
 	border: none;
 	font-size: 14pt;
 	cursor: pointer;
-	color: white;
+	color: #34404b;
 	font-weight: 600;
 }
 .form input{
@@ -424,7 +415,7 @@ footer p{
 	color: grey;		
 }
 .list{
-	width: 50%;
+	width: 40%;
 	display: flex;
 	padding-top: 60px; 
 }
@@ -457,23 +448,3 @@ footer p{
 .payment .card i:hover{
 	color: orange;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
