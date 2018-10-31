@@ -514,3 +514,67 @@ body{
 	visibility: visible;
 	position: absolute;
 }
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.container{
+		width: 970px;
+	}
+}
+@media screen and (max-width: 992px) and (min-width: 769px){
+	.container{
+		width: 750px;
+	}
+	.section_2_1{
+		width: 50%;
+	}
+	.section_2_2{
+		display: none;
+	}
+	.section_2_3{
+		width: 50%;
+	}
+	.section_3_1{
+		display: none;
+	}
+	.section_3_2{
+		width: 100%;
+	}
+	.section_4{
+		display: none;
+	}
+	.section_4_1{
+		display: none;
+	}
+	.section_5{
+		display: none;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	.container{
+		width: 100%;
+	}
+	.section_2_1{
+		display: none;
+	}
+	.section_2_2{
+		width: 100%
+	}
+	.section_2_3{
+		width: 100%;
+	}
+	.section_3_1{
+		display: none;
+	}
+	.section_3_2{
+		width: 100%;
+	}
+	.section_4{
+		display: none;
+	}
+	.section_4_1{
+		display: none;
+	}
+	.section_5{
+		display: none;
+	}
+}
