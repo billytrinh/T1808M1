@@ -1,0 +1,59 @@
+body{
+	background-color: whitesmoke;
+}
+
+div{
+	background-color: whitesmoke;
+}
+.a {
+	background-color:whitesmoke;
+	width: 250px;
+	height: 750px;
+	float: none; /* left right none */
+	text-align: center;
+	margin:0 auto;
+	padding:0 auto;
+	border-radius: 10px;
+}
+.b{
+	background-color:whitesmoke;
+	width: 100%;
+	height: 56px;
+	float: left; /* left right none */
+	text-align: center;
+	margin:0 auto;
+	padding:0 auto;
+	border-radius: 10px;
+
+}
+.c{
+	background-color:whitesmoke;
+	width: 100%;
+	height: 40px;
+	float: left; /* left right none */
+	text-align: center;
+	margin:0 auto;
+	padding:0 auto;
+	border-radius: 10px;
+
+}
+.d{
+	background-color:whitesmoke;
+	width: 100%;
+	height: 32px;
+	float: left; /* left right none */
+	text-align: center;
+	margin:0 auto;
+	padding:0 auto;
+	border-radius: 10px;
+
+}
+
+
+.b input{
+	float: left;
+	width:100%;
+}
+
+
+
