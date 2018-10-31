@@ -1,6 +1,6 @@
 div{
 	text-align: center;
-	background-color: white;
+
 }
 
 img{
@@ -33,13 +33,54 @@ text-decoration: none;
 	border-radius: 10px;
 }
 
-.idd{
+.sang1 span{
 	font-family: 'Poor Story', cursive;
+	font-weight: 900;
 	font-size: 20px;
-	font-weight: 700;
 	color: orange;
 }
+.pts figcaption{
+	font-family: 'Poor Story', cursive;
+	font-weight: 900;
+	font-size: 20px;
+}
+.sang1:hover p img{
+	transform: scale(0.5) translateY(-100px);
+	transition: 200ms;
+}
+.sang1:hover figcaption{
+	transition: 100ms;
+	transform: translateY(-100px);
+	color: orange;
+}
+.sang1:hover span{
+	display: none;
+}
+.sang1 a{
+    color: #f4f6f8;
+	display: inline-block;
+}
+.sang1:hover a{
+	
+	transform: translateY(-120px);
+	color: black;
+}
+.box div{
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+.sang1:hover .box{
+	transform: translateY(-100px);
 
+}
+.sang2{
+	display: inline-block;
+}
+.sang1:hover .sang2 > a >img{
+	transform:translateY(+35px);
+}
 body{
 	background-color: white;
 }
@@ -110,9 +151,23 @@ body{
 	height: 100%;
 	background-color: #f4f6f8;
 }
+.section_3_3{
+	margin-top: 20px;
+    background-color: white;
+    height: 60px;
+    border-radius: 10px;
+}
+.section_3_3 img{
+	width: 40px;
+	height: 9px;
+}
 .section_4{
 	background-color: #f4f6f8;
 	height: 125px;
+}
+.section_4_1{
+	background-color: #f4f6f8;
+	height: 75px;
 }
 .section_5{
 	background-color: white;
@@ -131,7 +186,7 @@ body{
 	font-size: 15px;
 	color: black;
 	font-weight: 700;
-	font-family: 'Oswald'
+	font-family: 'Poor Story', cursive;
 }
 .Phone{
 	width: 12px;
@@ -147,7 +202,7 @@ body{
 	font-size: 15px;
 	color: black;
 	font-weight: 700;
-	font-family: 'Oswald'
+	font-family: 'Poor Story', cursive;
 }
 .Instargram{
 	width: 11px;
@@ -233,6 +288,7 @@ body{
 	width: 80%;
 	padding: 15px;
 	margin: 15px; 
+	background-color: white;
 }
 .Loai1{
 	margin-left: 20px;
@@ -295,6 +351,7 @@ body{
 	height: 15%;
 	padding: 15px;
 	margin: 15px;
+	background-color: white;
 }
 .Gia1{
 	text-align: left;
@@ -349,6 +406,7 @@ body{
 	height: 18%;
 	padding: 15px;
 	margin: 15px;
+	background-color: white;
 }
 .KichCo1{
 	margin-top: 15px;
@@ -375,6 +433,7 @@ body{
 	height: 17%;
 	padding: 15px;
 	margin: 15px;
+	background-color: white;
 }
 
 .cuoi_1{
