@@ -34,7 +34,7 @@ text-decoration: none;
 	overflow: hidden;
 }
 .sang1 *{
-    transition: 200ms;
+    transition: 300ms;
 }
 .sang1 span{
 	font-family: 'Poor Story', cursive;
@@ -49,10 +49,8 @@ text-decoration: none;
 }
 .sang1:hover p img{
 	transform: scale(0.5) translateY(-100px);
-	transition: 200ms;
 }
 .sang1:hover figcaption{
-	transition: 200ms;
 	transform: translateY(-100px);
 	color: orange;
 }
