@@ -34,7 +34,7 @@ text-decoration: none;
 	overflow: hidden;
 }
 .sang1 *{
-    transition: 300ms;
+    transition: 1s;
 }
 .sang1 span{
 	font-family: 'Poor Story', cursive;
