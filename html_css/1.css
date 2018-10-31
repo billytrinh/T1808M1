@@ -26,13 +26,57 @@ a{
 	margin:15px;
 	padding:15px;
 	border-radius: 0px;
+	overflow: hidden;
+}
+.item img{
+	transition: 200ms all;
 }
 .vu{
 	color: red;
 
 }
+.item .box > div{
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	border-radius: 100%;
+	display: inline-block;
+	}
 .item a span{
 	color:blue;
+}
+.item span{
+	color: red;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	float: left;
+	width: 100%;
+}
+.item *{
+	transition: 100ms all;
+}
+.item:hover img{
+	transform:scale(0.5) translateY(-100px);
+}
+.item:hover figcaption{
+	transform: translateY(-100px);
+}
+.item:hover span{
+	display: none;
+}
+.item:hover p{
+	transform: translateY(-50px);
+}
+.item:hover .box{
+	transform: translateY(-50px);
+}
+@keyframes example {
+    from {
+    	transform: scale(1);
+    }
+    to {
+    	transform: scale(0.5);
+    }
 }
 .cc{
 	background-color: white;
@@ -142,6 +186,7 @@ a{
 	
 	margin-top: 30px;
 	margin-left: 40px;
+
 }
 .m1{
    float: left;
@@ -193,7 +238,7 @@ a{
 	background-color: white;
 }
 .section_3 img{
-	width: 80px;
+	width: 100px;
 }
 
 .chon{
@@ -388,6 +433,9 @@ a{
 .cuoi_3{
 	height: 100%;
 	float: left;
+}
+.cuoi_3 a{
+	font-size: 20px;
 }
 .cuoi_3 img{
     width: 32px;
