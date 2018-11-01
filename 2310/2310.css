@@ -1,0 +1,182 @@
+body{
+	margin: 0 ;
+	padding: 0;
+	background-color: #f4f6f8;
+}
+header{
+	height: 180px;
+	background-color: white;
+}
+.container{
+	width: 1170px;
+	margin:0 auto;
+}
+.contact{
+	height: 60px;
+	display: flex;
+	width: 100%;
+}
+.email{
+	display: flex;
+	width: 50%;
+}
+.email img{
+	transform: scale(0.7);
+	height:20px;
+	line-height: 30px;
+	margin-top: 13px;
+}
+.icon1 {
+	width: 50%;
+    float: right;
+}
+.icon1 img{
+    float: right;
+    margin-top: 10px;
+}
+.menu{
+	display: flex;
+	height: 120px;
+}
+.logo{
+	width: 20%;
+
+}
+.menu2 {
+	width: 60%;
+
+}
+.menu2 ul{
+	display: flex;
+}
+.menu2 ul li{
+	padding: 10px;
+	list-style: none;
+	margin-top: 20px;
+}
+.menu3{
+	width: 20%;
+    float: right;
+}
+.menu3 img{
+	 float: right;
+    margin-top: 30px;
+}
+.side{	
+}
+.section{
+	height: 1250;
+}
+.cate{
+	width: 25%;
+	background-color: white;
+}
+.cate ul li{
+	list-style: none;
+}
+.price{width: 25%;
+	background-color: white;
+}
+.size{width: 25%;
+	background-color: white;
+}
+.brand{width: 25%;
+	background-color: white;
+}
+.hop{ 
+	width: 75%;
+}
+.day1{
+	display: flex;
+	width: 70px;
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 80px;
+}
+.ao1{
+	background-color: white;
+	margin-left: 66px;
+}
+.ao2{
+	background-color: white;
+	margin-left: 66px;
+}
+.ao2 img{
+	transform: scale(0.5);
+}
+.name1{ font-weight: 600;
+	 font-family: sans-serif;
+	 color: red;
+	 font-size: 30px;
+	 text-decoration: none;
+
+}
+.name{
+	 font-weight: 600;
+	 font-family: sans-serif;
+	 color: black;
+	 font-size: 30px;
+	 text-decoration: none;
+}
+.a1{
+	color: red;
+	font-size: 30px;
+	font-weight: 600;
+}.day2{
+	display: flex;
+	width: 70px;
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 80px;
+}
+.ao1{
+	background-color: white;
+	margin-left: 66px;
+
+}
+.name{
+	 font-weight: 600;
+	 font-family: sans-serif;
+	 color: black;
+	 font-size: 30px;
+	 text-decoration: none;
+}
+.a1{
+	color: red;
+	font-size: 30px;
+	font-weight: 600;
+}.day3{
+	display: flex;
+	width: 70px;
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.ao1{
+	background-color: white;
+	margin-left: 66px;
+
+}
+.name{
+	 font-weight: 600;
+	 font-family: sans-serif;
+	 color: black;
+	 font-size: 30px;
+	 text-decoration: none;
+}
+.a1{
+	color: red;
+	font-size: 30px;
+	font-weight: 600;
+}
+footer{
+	background-color: white;
+	height: 130px;
+}
+.n1{display: flex;
+	width: 50%;
+}
+.n2{float: right;
+	width: 20%;
+}

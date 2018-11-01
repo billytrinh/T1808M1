@@ -1,0 +1,87 @@
+body {
+	background-color: #f4f6f8;
+}
+.day1{
+	display: flex;
+	width: 70px;
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 80px;
+}
+.ao1{
+	background-color: white;
+	margin-left: 66px;
+}
+.ao2{
+	background-color: white;
+	margin-left: 66px;
+}
+.ao2 img{
+	transform: scale(0.5);
+}
+.name1{ font-weight: 600;
+	 font-family: sans-serif;
+	 color: red;
+	 font-size: 30px;
+	 text-decoration: none;
+
+}
+.name{
+	 font-weight: 600;
+	 font-family: sans-serif;
+	 color: black;
+	 font-size: 30px;
+	 text-decoration: none;
+}
+.a1{
+	color: red;
+	font-size: 30px;
+	font-weight: 600;
+}.day2{
+	display: flex;
+	width: 70px;
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 80px;
+}
+.ao1{
+	background-color: white;
+	margin-left: 66px;
+
+}
+.name{
+	 font-weight: 600;
+	 font-family: sans-serif;
+	 color: black;
+	 font-size: 30px;
+	 text-decoration: none;
+}
+.a1{
+	color: red;
+	font-size: 30px;
+	font-weight: 600;
+}.day3{
+	display: flex;
+	width: 70px;
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.ao1{
+	background-color: white;
+	margin-left: 66px;
+
+}
+.name{
+	 font-weight: 600;
+	 font-family: sans-serif;
+	 color: black;
+	 font-size: 30px;
+	 text-decoration: none;
+}
+.a1{
+	color: red;
+	font-size: 30px;
+	font-weight: 600;
+}
