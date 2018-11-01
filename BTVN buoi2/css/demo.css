@@ -1,9 +1,11 @@
 div{
-    background-color:  #d8dbde;
+    background-color: white;
 }
 
 body{
     background-color: grey;
+    width: 1200px;
+    height: 1200px;
 }
 
 img{
@@ -27,11 +29,11 @@ a{
 .item{
     background-color: white;
     width: 300px;
-    height: 400px;
+    height: 300px;
     float: left;
     text-align: center;
     color: blue;
-    margin: 15px;
+    margin: 20px;
 }
 
 .item a span{
