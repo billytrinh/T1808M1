@@ -1,0 +1,96 @@
+body{
+	margin: 0 ;
+	padding: 0;
+	background-color: #f4f6f8;
+}
+header{
+	height: 180px;
+	background-color: white;
+}
+.container{
+	width: 1170px;
+	margin:0 auto;
+}
+.contact{
+	height: 60px;
+	display: flex;
+	width: 100%;
+}
+.email{
+	display: flex;
+	width: 50%;
+}
+.email img{
+	transform: scale(0.7);
+	height:20px;
+	line-height: 30px;
+	margin-top: 13px;
+}
+.icon1 {
+	width: 50%;
+    float: right;
+}
+.icon1 img{
+    float: right;
+    margin-top: 10px;
+}
+.menu{
+	display: flex;
+	height: 120px;
+}
+.logo{
+	width: 20%;
+
+}
+.menu2 {
+	width: 60%;
+
+}
+.menu2 ul{
+	display: flex;
+}
+.menu2 ul li{
+	padding: 10px;
+	list-style: none;
+	margin-top: 20px;
+}
+.menu3{
+	width: 20%;
+    float: right;
+}
+.menu3 img{
+	 float: right;
+    margin-top: 30px;}
+section{
+	width: 800px;
+	margin: 0 auto;
+}
+input{
+	width: 800px;
+	line-height: 45px;
+}
+.a123 {
+	margin-top: 90px;
+	width: 100%;
+text-align: center;
+}
+
+footer{
+	margin: 0 auto;
+	height: 250px;
+	background-color: white;
+}
+.a1{
+	width: 100%;
+}
+.a12{
+	margin-top: 50px;
+}
+.a22{
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+}
+.a13{
+	text-align: right;
+}
