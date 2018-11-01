@@ -6,22 +6,30 @@
 		<link rel="stylesheet" href="css/style.css"/>
 		<script type="text/javascript">
 			 var x = [];
-			 x[0] = form_nhap("Nhap ho cua ban:");
-			 x[1] = form_nhap("Nhap ten cua ban:");
-			 x[2] = form_nhap("Nhap nam sinh cua ban:");
+			// x[0] = form_nhap_so("Nhap so thu nhat:");
+			// x[1] = form_nhap_so("Nhap so thu 2:");
+			// x[2] = form_nhap("Nhap nam sinh cua ban:");
 			//alert (x[0]+" "+x[1]+"--"+x[2]);
-			 show_popup(x[0]+" "+x[1]+"--"+x[2]);
-			function form_nhap(str){
+			// show_popup("Tong 2 so: "+(x[0]+x[1]));
+			function form_nhap_so(str){
 			 	var a;
 			 	do{
 				 	a = prompt(str);
-				 }while(a == null || a == "");
-			 	return a;
+				 }while(a == null || a == "" || isNaN(parseInt(a)));
+			 	return parseInt(a);
 			 }
 
 			 function show_popup(str){
 			 	alert(str);
 			 }
+
+			 // setTimeout(function(){
+			 // 	alert("xuat hien sau 3s");
+			 // },3000);
+
+			 // setInterval(function(){
+			 // 	alert("xuat hien moi 3s");
+			 // },3000);
 
 		</script>
 	</head>
