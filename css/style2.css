@@ -5,7 +5,7 @@
 .container{
 	width: 1170px;
 	margin: 0 auto;
-	background-color: #fff;
+	background-color: blue;
 	height: 100%;
 }
 .img1{
@@ -13,7 +13,7 @@
 	height: 189px;
 }
 .item{
-	background-color: #fff;
+	background-color: gray;
 	width: 260px;
 	height: 163px;
 	float: left; /* left right none */
@@ -23,23 +23,38 @@
 	border-radius: 0px;
 }
 .item1{
-	background-color: #fff;
-	width: 170px;
-	height: 110px;
+	background-color: white;
+	width: 250px;
+	height: 230px;
 	float: left; /* left right none */
 	text-align: center;
 	margin:5px;
-	padding:50px;
+	padding:10px;
 	border-radius: 10px;
 }
 .b{
-	background-color: none;
+	background-color: blue;
 	width: 840px;
 	height: 760px;
 	float: left; /* left right none */
 	text-align: center;
 	margin:5px;
 	padding:5px;
+	border-radius: 10px;
+}
+.b img{
+	width:90px;
+	height:130px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.item3 img{
+	width: 230px;
+	height:255px;
+	float: left; /* left right none */
+	text-align: center;
+	margin-top:10px;
+	padding:20px;
 	border-radius: 10px;
 }
 .section_1{
@@ -149,7 +164,5 @@
 	height: 100%;
 	background-color: red;
 }
-.container a span{
-	color:yellow;
-}
+
 
