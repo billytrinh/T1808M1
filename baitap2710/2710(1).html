@@ -2,6 +2,25 @@
 <html>
 <head>
 	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="">
+	<script type="text/javascript">
+		var x=[];
+		x[0]=form_nhap("Nhap ho cua ban");
+		x[1]=form_nhap("Nhap ten cua ban");
+		x[2]=form_nhap("Nhap nam sinh cua ban");
+		//alret (x[0]+" "+x[1]+"--"+x[2]);
+		show_popup(x[0]+" "+x[1]+"--"+x[2]);
+		function form_nhap(str){
+			var a;
+			do{
+				a= prompt(str);
+			}while(a == null || a =="");
+			return a;}
+   		function show_popup(str){
+   			alret(str)
+   		}
+	</script>
 </head>
 <body>
 <!--table-->
