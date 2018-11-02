@@ -3,31 +3,22 @@
 	<title></title>
 </head>
 <body>
-	<h1>day la the h1</h1>
-	<h2>day la the h2</h2>
-	<b>bold</b>
-	<i>italic</i>
-	<small>small</small>
-	<u>underline</u>
-	<del>delete text</del>
-	<strong>strong</strong>
-	<span>span text</span>
-	<p>text</p>
-	<ol>
-		<li>no1</li>
-		<li>no2</li>
-		<li>no3</li>
+	<script type="text/javascript">
+		var x=[];
+		x[0]=form_nhap("nhap so thu nhat");
+		x[1]=form_nhap("nhap so thu hai")
+		alert("tong 2 so la:"+(x[0]+x[1]));
+		function form_nhap(str){
+		var a;
+		do{
+			a=prompt(str);
+			}while(a==null||a==""||isNaN(parseInt(a)));
+			return parseInt(a);
+			}
+			
 
-	</ol>
-	<ul>
-		<li>no 1</li>
-		<li>no 2</li>
-		<li>no 3</li>
-	</ul>
-	<img src="anh.png">
 
-	<h4>anh ao</h4>
-	<img src="ao.png">
+	</script>
 
 </body>
 </html>
