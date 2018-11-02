@@ -1,0 +1,217 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f4f6f8;
+	display: block;
+	font-family: sans-serif;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+/*============HEADER===============*/
+header{
+	height: 180px;
+	background-color: #fff;
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+}
+.contact{
+	height: 60px;
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+	display: flex;
+}
+.contact .mail-phone{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	line-height: 50px;
+}
+.mail-phone a{
+	margin-right: 15px;
+	text-decoration: none;
+	color: #34404b;
+}
+.mail-phone a i{
+	color: orange; 
+	margin-right: 10px;
+}
+.contact .sns{
+	text-align: right;
+	width: 50%;
+	letter-spacing: 10px;
+	line-height: 50px;
+}
+.sns a{
+	color: #34404b;
+}
+nav{
+	height: 120px;
+	width: 100%;
+	display: flex;
+}
+nav .logo{
+	width: 20%;
+	text-align: left;
+	line-height: 130px;
+}
+nav .menu{
+	width: 60%;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+	margin-top: 30px;
+}
+.menu ul li a{
+	display: block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	color: #34404b;
+	font-size: 16pt;
+	margin-right: 10px;
+	font-weight: 500;
+}
+.iconhead{
+	width: 20%;
+	line-height: 100px;
+	letter-spacing: 10px;
+	text-align: right;
+}
+.iconhead a{
+	color: #34404b;
+}
+/*----------------------------------------------*/
+/*===========SECTION============================*/
+.containermain{
+	width: 805px;
+	margin: 0 auto;
+	margin-top: 56px;
+}
+a{text-decoration: none;}
+.containermain u{
+	text-decoration: none;
+	font-size: 18pt;
+	color: #b7b9ba;
+}
+.avatar{
+	text-align: center;
+	font-size: 150px;
+	color: #b7b9ba;
+	margin-bottom: 20px;
+}
+.form input{
+	width: 805px;
+	line-height: 50px;
+	margin-bottom: 30px;
+	font-size: 18pt;
+	border-radius: 
+	outline:none;
+	border: none;
+	margin-top: 10px;
+}
+.temp {
+	display: flex;
+	float: left;
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 25%;
+	margin-top: 60px;
+	text-align: center;
+}
+.temp input{
+	width: 5%;
+	height: 20px;
+}
+button{
+	background-image: linear-gradient(to right,rgba(0,0,255,.),rgba(50,50,255,.3));
+	border-radius: 5px;
+	padding: 20px;
+	border: none;
+	outline: none;
+	margin-left: 30%;
+	margin-top: 50px;
+	width: 300px;
+	font-size: 16pt;
+	cursor: pointer;
+}
+label{
+	font-size: 16pt;
+	color: #b7b9ba;
+}
+.form p{
+	font-size: 18pt;
+	color: blue;
+	text-align: center;
+	margin-top: 50px;
+
+}
+/*===========FOOTER============================*/
+footer{
+	width: 100%;
+	height: 180px;
+	background-color: #fff;
+}
+.containerfoot{
+	width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+footer .logo{
+	width: 20%;
+	margin-top: 60px;
+}
+.logo h5{
+	opacity: 0.5;
+	letter-spacing: 2px;
+	font-size: 8pt;
+}
+footer .listlink{
+	display: flex;
+	width: 50%;
+	margin-top: 30px;
+}
+
+.listlink ul li a{
+	text-decoration: none;
+	margin-bottom: 10px;
+	color: #34404b;
+}
+footer .payment {
+	width: 30%;
+	display: block;
+}
+.payment p{
+	font-style: italic;
+	color: orange;
+	letter-spacing: 2px;
+	font-size: 24pt;
+	float: right;
+	font-weight: 600;
+	font-size: 28pt;
+}
+.payment .card i{
+	letter-spacing: 2px;
+	font-size: 24px;
+	color: #34404b;
+	float: right;
+	letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
