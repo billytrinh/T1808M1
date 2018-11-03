@@ -20,7 +20,12 @@
 			 }
 
 			 function show_popup(str){
+			 	//console.log(event.keyCode);
+			 	if(event.keyCode == 13){
+			 		alert('da nhap xong');
+			 	}
 			 	alert(str);
+			 	
 			 }
 
 			 // setTimeout(function(){
@@ -30,13 +35,20 @@
 			 // setInterval(function(){
 			 // 	alert("xuat hien moi 3s");
 			 // },3000);
-			// alert("aaa");	
+			// alert("aaa");
+			function popup(){
+				var x;
+				x = prompt("Nhap thong tin");
+				alert(x);
+			}	
 		</script>
 	</head>
 	<body>
-		
+		<div class="box" onmouseenter="show_popup('hello')" onmouseleave="show_popup('out')"></div>
+
+		<button type="button" onclick="popup()" onmouseenter="aaa()">CLick here</button>	
 		<!-- table -->
-		<table border="1" onmouseleave="show_popup('Ok?')">
+		<table border="1" >
 			<thead>
 				<th>No</th>
 				<th>Họ tên</th>
@@ -67,10 +79,11 @@
 		<!-- FORM -->
 
 		<form method="GET" action="#" name="form_data" class="form" enctype="multipart/form_data">
-			<input type="text" name="username" placeholder="User name"  required /><br/>
-			<input type="email" name="email" placeholder="Email"  required/><br/>
-			<input type="password" name="password" placeholder="password" /><br/>
-			<input type="number" name="number" placeholder="number" /><br/>
+			<input type="text" name="username" onkeypress="show_popup('keypress')" placeholder="User name"  required /><br/>
+			<input type="text" name="username"  placeholder="User name 222"  required /><br/>
+			<input type="email" onkeydown="show_popup('keydown')" name="email" placeholder="Email"  required/><br/>
+			<input type="password"  name="password" placeholder="password" /><br/>
+			<input type="number" onkeyup="show_popup('keyup')" name="number" placeholder="number" /><br/>
 			<input type="color" name="color" placeholder="color" /><br/>
 			<input type="date" name="date" placeholder="date" /><br/>
 			<input type="file" name="file" placeholder="file" /><br/>
@@ -81,7 +94,7 @@
 			<input  type="radio" name="radio" placeholder="radio" />
 			<input  type="radio" name="radio" placeholder="radio" />
 			<br/>
-			<select name="select">
+			<select name="select" onchange="alert('onchange')">
 				<option value="1">No1</option>
 				<option value="2">No2</option>
 				<option value="3">No3</option>
@@ -93,7 +106,7 @@
 				<option value="3">No3</option>
 			</select>
 			<br/>
-			<textarea name="textarea" rows="5" cols="100">
+			<textarea name="textarea" oncopy="alert('copy')" oncut="alert('Cut')" onpaste= "alert('paste')" rows="5" cols="100">
 				
 			</textarea>
 			<br/>
