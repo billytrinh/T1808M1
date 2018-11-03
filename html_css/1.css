@@ -74,6 +74,7 @@ a{
 }
 .item:hover figcaption{
 	transform: translateY(-100px);
+	color: pink;
 }
 .item:hover span{
 	display: none;
