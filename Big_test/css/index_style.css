@@ -465,11 +465,54 @@ section{
 }
 
 
+footer{
+	height: 180px;
+	background-color: #fff;
 
-
-
-
-
+}
+.containerbottom{
+	width: 1170px;
+	margin: 0 auto;
+	height: 90%;
+	display: flex;
+	margin-top: 30px;
+}
+.logobottom{
+	width: 25%;
+	height: 100%;
+}
+.listlink{
+	width: 55%;
+	display: flex;
+}
+.listlink ul{
+	margin-right: 40px;
+}
+.listlink ul li{
+	margin-bottom: 10px;
+}
+.listlink ul li:hover a{
+	color: #ff5913;
+}
+.payment{
+	width: 20%;
+	text-align: left;
+	font-size: 18pt;
+}
+.payment p{
+	margin: 0;
+	padding: 0;
+	color: #ff5913;
+	font-weight: 800;
+}
+.payment .card{
+	color: #34404b;
+	letter-spacing: 5px;
+	margin-top: 20px;
+}
+.payment .card i:hover{
+	color: #ff5912;
+}
 
 
 
