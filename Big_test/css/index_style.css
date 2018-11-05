@@ -466,7 +466,7 @@ section{
 .form i {
 	margin-right: 8px;
 	color: #ff5912;
-=======
+}
 .form{
 	width: 50%;
 	height: 100%;
@@ -500,12 +500,9 @@ section{
 	outline: none;
 	border: none;
 }
-
-
 footer{
 	height: 180px;
 	background-color: #fff;
-
 }
 .containerbottom{
 	width: 1170px;
@@ -550,109 +547,5 @@ footer{
 .payment .card i:hover{
 	color: #ff5912;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 5c3f50a103b45345b143dcdcb1d17fccfa1a9ca9
-
-}
-.form input {
-	margin-right: 70px;
-	background : none;
-	outline: none ;
-	border : none; 
-	width: 200px;
-}
-.form .join {	
-	margin-right: 100px;
- 	background-color: #ff5912;
- 	outline: none;
- 	border: none;
- 	padding: 15px;
- 	color: white;
-}
-.containerbottom {
-	display: flex;
-	width: 1170px;
-	margin: 0 auto;
-	margin-top: 40px;
-	height: 150px;
-}
-.logobottom {
-	width: 25%;
-	height: 100%;
-}
-.listlink {
-	width: 60%;
-	height: 100%;
-	display: flex;
-	margin-left: 100px;
-}
-.listlink ul {
-	margin-left: 20px;
-}
-.listlink li {
-	line-height: 20px;
-	font-weight: 500;
-}
-.payment {
-	width: 15%;
-	height: 100%;
-	margin-left: 50px;
-	text-align: left;
-}
-
-.payment p {
-	font-size: 13px;
-	color: #ff5912;
-	font-weight: 700;
-}
-.payment i {
-	font-size: 20px;
-}
-.listlink ul li a:hover {
-	color: #ff4000;
-}
-.listlink ul li:focus {
-	color: #ff4000;
-}
-.payment p:hover {
-	color: #ff4000;
-}
-.payment p:focus {
-	color: #ff4000;
-}
-.payment .card i:hover{
-	color: #ff4000;
-}
-.payment .card i:focus{
-	color: #ff4000;
-}
-
-
 
 
