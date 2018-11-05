@@ -167,22 +167,22 @@ section{
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	color: orange;
+	color: #ff5912;
 	font-weight: 700;
-	font-size:48pt;
+	font-size:40pt;
 }
 .text h4{
-	margin-left: 30px;
+	margin-right: 48px;
 	padding: 0;
-	font-size: 16pt;
-	font-weight: 400;
+	font-size: 14pt;
+	font-weight: 600;
 }
 .text h6{
 	padding: 0;
-	margin-left: 10px;
+	margin-left: 0px;
 	font-weight: 200;
-	font-size: 10pt;
-	letter-spacing: 4px;
+	font-size: 12pt;
+	letter-spacing: 1px;
 }
 .buy_element{
 	width: 100%;
@@ -195,7 +195,7 @@ section{
 	border:none;
 	outline: none;
 	margin-left: 40px;
-	color: orange;
+	color: #ff5912;
 	font-size: 16pt;
 	cursor: pointer;
 }
@@ -221,6 +221,7 @@ section{
 	font-weight: 300;
 	left: 3px;
 	color: #34404b;
+	font-size: 10pt;
 }
 
 .items{
@@ -240,7 +241,7 @@ section{
 
 .item p{
 	margin-bottom: 20px;
-	color: #33440b;
+	color: #273f56;
 	font-size: 14pt;
 	font-weight: 700;
 	transition: 0.3s;
@@ -248,8 +249,9 @@ section{
 .item u{
 	font-size: 16pt;
 	margin-top: 20px;
-	color: orange;
+	color: #ff5912;
 	text-decoration: none;
+	font-weight: 600;
 }
 .hover{
 	text-align: center;
@@ -312,9 +314,10 @@ section{
 }
 .pagenum a i{
 	line-height: 50px;
-	color: orange;
+	color: #ff5912;
 	cursor: pointer;
 	letter-spacing: 10px;
+	font-size: 10pt;
 }
 .pagenum a i:hover{
 	color: #34404b;
@@ -343,8 +346,7 @@ section{
 .sale_item{
 	display: flex;
 	width: 1770px;
-	margin: 0 auto
-
+	margin: 0 auto;
 }
 .ads_banner{
 	width: 1170px;
@@ -430,6 +432,41 @@ section{
 	line-height: 100px;
 	background-color: #fff;
 }
+<<<<<<< HEAD
+.banner{
+	width: 1170px;
+	height: 100px;
+	padding: 0 0 90px;
+	display: flex;
+	margin-top: 30px;
+	line-height: 100px;
+}
+.text2 {
+	width: 50%;
+	height: 100%;
+	text-align: left;
+	background-color: #ffffff;
+}
+.text2 .big {
+	font-size: 20pt;
+	color: #ff4000;
+	margin-left: 50px;
+	font-weight: 700;
+}
+.text2 .small {
+	margin-left: 20px;
+	color: #aeb4ba;
+}
+.form {
+	width: 50%;
+	height: 100%;
+	text-align:right; 
+	background-color: #ffffff;
+}
+.form i {
+	margin-right: 8px;
+	color: #ff5912;
+=======
 .form{
 	width: 50%;
 	height: 100%;
@@ -540,10 +577,81 @@ footer{
 
 
 
+>>>>>>> 5c3f50a103b45345b143dcdcb1d17fccfa1a9ca9
 
+}
+.form input {
+	margin-right: 70px;
+	background : none;
+	outline: none ;
+	border : none; 
+	width: 200px;
+}
+.form .join {	
+	margin-right: 100px;
+ 	background-color: #ff5912;
+ 	outline: none;
+ 	border: none;
+ 	padding: 15px;
+ 	color: white;
+}
+.containerbottom {
+	display: flex;
+	width: 1170px;
+	margin: 0 auto;
+	margin-top: 40px;
+	height: 150px;
+}
+.logobottom {
+	width: 25%;
+	height: 100%;
+}
+.listlink {
+	width: 60%;
+	height: 100%;
+	display: flex;
+	margin-left: 100px;
+}
+.listlink ul {
+	margin-left: 20px;
+}
+.listlink li {
+	line-height: 20px;
+	font-weight: 500;
+}
+.payment {
+	width: 15%;
+	height: 100%;
+	margin-left: 50px;
+	text-align: left;
+}
 
-
-
+.payment p {
+	font-size: 13px;
+	color: #ff5912;
+	font-weight: 700;
+}
+.payment i {
+	font-size: 20px;
+}
+.listlink ul li a:hover {
+	color: #ff4000;
+}
+.listlink ul li:focus {
+	color: #ff4000;
+}
+.payment p:hover {
+	color: #ff4000;
+}
+.payment p:focus {
+	color: #ff4000;
+}
+.payment .card i:hover{
+	color: #ff4000;
+}
+.payment .card i:focus{
+	color: #ff4000;
+}
 
 
 
