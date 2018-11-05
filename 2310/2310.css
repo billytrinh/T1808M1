@@ -62,11 +62,14 @@ header{
 	 float: right;
     margin-top: 30px;
 }
-.side{	
-}
-.section{
+section{
 	height: 1250;
+	width: 100%;
 }
+.side{
+width: 40%;
+}
+
 .cate{
 	width: 25%;
 	background-color: white;
@@ -84,13 +87,13 @@ header{
 	background-color: white;
 }
 .hop{ 
-	width: 75%;
+	width: 60%;
 }
 .day1{
 	display: flex;
-	width: 70px;
+	width: 800px;
 	text-align: center;
-	margin-left: 15%;
+	margin-left: 15px;
 	margin-top: 80px;
 }
 .ao1{
@@ -124,9 +127,9 @@ header{
 	font-weight: 600;
 }.day2{
 	display: flex;
-	width: 70px;
+	width: 800px;
 	text-align: center;
-	margin-left: 15%;
+	margin-left: 15px;
 	margin-top: 80px;
 }
 .ao1{
@@ -147,9 +150,9 @@ header{
 	font-weight: 600;
 }.day3{
 	display: flex;
-	width: 70px;
+	width: 800px;
 	text-align: center;
-	margin-left: 15%;
+	margin-left: 15px;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
@@ -170,9 +173,12 @@ header{
 	font-size: 30px;
 	font-weight: 600;
 }
-footer{
+.n123{
+	text-align: center;
+	display: flex;
 	background-color: white;
 	height: 130px;
+	width: 1170px;
 }
 .n1{display: flex;
 	width: 50%;
@@ -180,3 +186,8 @@ footer{
 .n2{float: right;
 	width: 20%;
 }
+.n3{
+	text-align: right;
+}
+
+footer{
