@@ -85,6 +85,7 @@ nav{
 	list-style: none;
 	font-size: 14pt;
 	cursor: pointer;
+	width: 100px;
 	transition: 0.3s;
 }
 .main_menu ul li a:hover{
@@ -264,6 +265,10 @@ section{
 	margin-top: 50px;
 	letter-spacing: 5px;
 }
+.hover span{
+	letter-spacing: 2px;
+	text-transform: lowercase;
+}
 .item img{
 	transition: 0.3s;
 }
@@ -363,31 +368,71 @@ section{
 	background-color:  #fff;
 
 }	
-.left .sub{
-	display: inline-block;
-	width: 80px;
-	height: 80px;
-	color: #000;
-	text-align: center;
+.sub{
+	width: 40%;
+	height: 100%;
+	color: #fff;
+	display: block;
+	z-index: 2;
 }
-.left .image .sub:after{
-	content:"sdsdfsd";
-	width: 100%;
-	height: 80px;
-	background: #ff0000;
+.left .image .sub::before {
+	content:"";
+	z-index: -1;
+	display: block;
+	margin-top: 30px;
+	width: 50px;
+	height: 50px;
+	transform: rotate(-45deg);
+	background: #ff5912;
+	margin-left: 20px;
+}
+.sub i,b{
+	position: absolute;
+	transform: translate(30px,-40px);
+	font-size: 10pt;
 }
 .left .content1{
 	width: 50%;
 	height: 100%;
+	margin-left: 30px;
+	color: #34404b;
+	margin-top: 30px;
 }
+.content1 p{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 18pt;
+	font-weight: 900;
+}
+.content1 h4{
+	margin: 0;
+	padding: 0;
+	font-weight: 200;
+	font-size: 10pt;
+}
+
 .left button{
 	width: 10%;
 	height: 100%
+	background:none;
+	border: none;
+	outline: none;
 }
-.left p{
-	width: 10%;
-	height: 100%
+.bottom_banner .banner{
+	width: 1170px;
+	height: 100px;
+	display: flex;
+	padding: 100px 0 100px;
 }
+.banner .text2{
+	width: 50%;
+	height: 100%;
+	line-height: 100px;
+	background-color: #fff;
+}
+<<<<<<< HEAD
 .banner{
 	width: 1170px;
 	height: 100px;
@@ -421,6 +466,75 @@ section{
 .form i {
 	margin-right: 8px;
 	color: #ff5912;
+=======
+.form{
+	width: 50%;
+	height: 100%;
+	line-height: 100px;
+	text-align: right;
+	background-color: #fff;
+}
+.text2 .big{
+	text-transform: uppercase;
+	color: orange;
+	font-size: 18pt;
+	font-weight: 700;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.form input{
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid rgba(0,0,0,.6);
+	width: 300px;font-size: 10pt;
+}
+.form i{
+	color: orange;
+	font-size: 18pt;margin-right: 10px;
+}
+.form button{
+	margin-right: 50px;
+	padding: 10px;
+	background-color: orange;
+	outline: none;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 5c3f50a103b45345b143dcdcb1d17fccfa1a9ca9
 
 }
 .form input {
