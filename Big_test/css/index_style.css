@@ -85,11 +85,113 @@ nav{
 	list-style: none;
 	font-size: 14pt;
 	cursor: pointer;
+	width: 100px;
 	transition: 0.3s;
 }
 .main_menu ul li a:hover{
 	color: orange;
 }
+.home ul li{
+	position: relative;
+	width: 120px;
+	height: 40px;
+}
+.home ul {
+	position: absolute;
+	transform: translateY(80px);
+	display: inline-block;
+	visibility: hidden;
+	background-color: #fff;
+}	
+.product ul li{
+	visibility: hidden;
+}
+.product:hover ul li{
+	visibility: visible;
+}
+
+.product ul li{
+	position: relative;
+	width: 120px;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.product ul{
+	position: absolute;
+	transform: translate(30px, 80px);
+	display: inline-block;
+	visibility: hidden;
+	background-color: #fff;
+}
+.main_menu ul .home:hover ul li{
+	visibility: visible;
+}
+.main_menu ul .product:hover ul li{
+	visibility: visible;
+}
+
+.deals ul li{
+	visibility: hidden;
+}
+
+.deals:hover ul li{
+	visibility: visible;
+}
+
+.deals ul li{
+	position: relative;
+	width: 120px;
+	height: 40px;
+}
+
+.deals ul{
+	position: absolute;
+	transform: translateY(-20px);
+	display: inline-block;
+	visibility: hidden;
+	background-color: #fff;
+}
+
+.about ul li{
+	position: relative;
+	width: 120px;
+	height: 40px;
+	visibility: hidden;
+}
+
+.about:hover ul li{
+	visibility: visible;
+}
+
+.about ul{
+	position: absolute;
+	transform: translateY(-20px);
+	display: inline-block;
+	visibility: hidden;
+	background-color: #fff;
+}
+
+.contract ul li{
+	position: relative;
+	width: 120px;
+	height: 40px;
+	visibility: hidden;
+}
+
+.contact:hover ul li{
+	visibility:visible;
+}
+
+.contact ul{
+	position: absolute;
+	transform: translateY(-20px);
+	display: inline-block;
+	visibility: hidden;
+	background-color: #fff;
+}
+
 .icontop{
 	height: 100%;
 	width: 20%;
