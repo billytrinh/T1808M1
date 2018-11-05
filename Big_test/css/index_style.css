@@ -405,6 +405,7 @@ section{
 	text-transform: uppercase;
 	font-size: 18pt;
 	font-weight: 900;
+	color: #34404b;
 }
 .content1 h4{
 	margin: 0;
@@ -419,6 +420,19 @@ section{
 	background:none;
 	border: none;
 	outline: none;
+	font-size: 24pt;
+	color: #ff5913;
+	cursor: pointer;
+}
+.left button i:hover {
+	transform: scale(1.3);
+}
+.left h1{
+	line-height: 55px;
+	margin-left: 30px;
+	font-size: 24pt;
+	color: #ff5913;
+	font-weight: 800;
 }
 .bottom_banner .banner{
 	width: 1170px;
@@ -432,7 +446,6 @@ section{
 	line-height: 100px;
 	background-color: #fff;
 }
-<<<<<<< HEAD
 .banner{
 	width: 1170px;
 	height: 100px;
