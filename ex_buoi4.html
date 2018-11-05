@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8"/>
+        <link rel="stylesheet" href=""/>
+        <script type="text/javascript" >
+            var x;
+            x = 10;
+            console.log(x);
+            x = "Hello World";
+            console.log(x);
+            x = [];
+            x[0] = 10;
+            x[1] = 'hello';
+            console.log(x);
+            // var y;
+            // // alert(x); ham` thong bao
+            // // y = confirm("Ban muon tiep tuc khong?"); 
+            // y = prompt("Nhap ten cua ban:");
+            // console.log(y);
+            // var x = [];
+            // do{
+            //     x[0] = prompt("Nhap ho  cua ban:");
+            //     // x[1] = prompt("Nhap ten cua ban: ");
+            //     // x[2] = prompt("Nhap tuoi cua ban:");
+            // }while(x[0] == null || x[0] == "");
+
+            // do{
+            //     x[1] = prompt("Nhap ten cua ban:");
+            // }while(x[1] == null || x[1] =="" );
+
+            // do{
+            //     x[2] = prompt("Nhap tuoi cua ban:");
+            // }while(x[2] == null || x[2] == "");
+            // alert(x[0] + "---" + x[1]+ "---" + x[2]);
+            // console.log(x);
+            //     x[0] = form_nhap("Nhap ho cua ban:");
+            //     x[1] = form_nhap("Nhap ten cua ban:");
+            //     x[2] = form_nhap("Nhap nam sinh cua ban");
+            //     console.log(x);
+            //     alert(x[0] + "---" + x[1]+ "---" + x[2]);
+            // function form_nhap(str){
+            //     var a;
+            //     do{
+            //         a  = prompt(str);
+            //     }while(a == null || a =="" );
+            //     return  a;
+            // }
+
+            var x = [];
+                x[0] = form_tinhtong("Nhap so thu nhat: ");
+                x[1] = form_tinhtong("Nhap so thu hai: ");
+                pop_up("tong hai so: " +(x[0] + x[1]));
+                function form_tinhtong(int){
+                    var a;
+                    do{
+                        a = prompt(int);
+                    }while(a == null || a =="" || isNaN(parseInt(a)))
+                    return parseInt(a);
+                }
+
+                function pop_up(str){
+                    alert(str);
+                    }          
+
+                setTimeout(function(){
+                    alert("xuat hien sau 3s");
+                }, 3000);
+
+
+                // setInterval(function(){
+                //     alert('xuat hien moi 3s')
+                // },3000);
+        </script>
+	</head>
+	<body>
+		<!-- <table border="1" onmouseover="pop_up('Ok?')"> -->
+                <table border="1" onmouseenter="pop_up('Ok?')">
+            <thead>
+                <th>No</th>
+                <th>Họ Tên </th>
+                <th> Email</th>
+                <th> Ngày sinh</th>
+                <th>MSSV</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Lê Văn A</td>
+                    <td>levana@gmail.com</td>
+                    <td>20/02/1999</td>
+                    <td>1808005</td>
+                </tr>
+
+                <tr>
+                        <td>1</td>
+                        <td>Lê Văn B</td>
+                        <td>levana@gmail.com</td>
+                        <td>20/02/1999</td>
+                        <td>1808006</td>
+                    </tr>
+
+
+                 <tr>
+                    <td>1</td>
+                    <td>Lê Văn C</td>
+                    <td>levana@gmail.com</td>
+                    <td>20/02/1999</td>
+                    <td>1808007</td>
+                
+                 <tr>
+                    <td>1</td>
+                    <td>Lê Văn D</td>
+                    <td>levana@gmail.com</td>
+                    <td>20/02/1999</td>
+                    <td>1808008</td>
+                </tr>
+                
+                 <tr>
+                    <td>1</td>
+                    <td>Lê Văn E</td>
+                    <td>levana@gmail.com</td>
+                    <td>20/02/1999</td>
+                    <td>1808009</td>
+                </tr>
+
+
+                 <tr>
+                    <td>1</td>
+                    <td>Lê Văn F</td>
+                    <td>levana@gmail.com</td>
+                    <td>20/02/1999</td>
+                    <td>1808010</td>
+                </tr>
+
+                 <tr>
+                    <td>1</td>
+                    <td>Lê Văn G</td>
+                    <td>levana@gmail.com</td>
+                    <td>20/02/1999</td>
+                    <td>1808011</td>
+                </tr>
+
+                </tr>
+            </tbody>
+        </table>
+
+        <form method="GET" action="#" name="form_data" class="form" enctype="multipart/form-data" >
+        <input type="text" name="username" value="" placeholder="username" required> <br>
+        <input type="text" name="Email" value="" placeholder="Email" required> <br>
+        <input type="password" name="password" value="" placeholder="password" required > <br>
+        <input type="number" name="number" value="" placeholder="number"> <br>
+        <input type="date" name="date" value="" placeholder="date"> <br>
+        <input type="file" name="file" value="" placeholder="file"> <br>
+        <input type="checkbox" name="checkbox" placeholder="checkbox"> <br>
+        <label>checkbox</label>
+        <br>
+        <input type="radio" name="radio1" placeholder="radio">
+        <input type="radio" name="radio2" placeholder="radio">
+        <input type="radio" name="radio3" placeholder="radio">
+            <br>
+        <select name="select" multiple >
+            <option value="1" >No1</option>
+            <option value="1" >No2</option>
+            <option value="1" >No3</option>
+        </select>
+            <br>
+
+            <textarea name="textarea" rows="3" cols="100"></textarea>
+
+            <button type="submit">submit</button>
+
+        
+        </form>
+   </body>
+</html> 

@@ -1,0 +1,222 @@
+body{
+	background-color: #d8dbde;
+}
+ div{
+	background-color: white;
+}
+img{
+	width: 20px;
+}
+a{
+	font-size: 15px;
+	color: gray;
+	font-weight: 400; /*100 300 400 500 600 700 800 900;*/
+	font-family: 'Times New Roman';
+	line-height: 22.5px;
+	text-decoration: none;/* overline underline line-through */
+	text-align: center;/* left  right center justify */
+	color: black;
+	padding: red;
+}
+#item1{
+	background-color: white;
+}
+.item{
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	float: left; /* left right none */
+	text-align: center;
+	color: black;
+	margin: 11.5px;
+}
+.item a span{
+    color:white;
+}
+
+/* chia layout */
+.section{
+	float: left;
+	width: 100%;
+}
+
+
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	background-color: grey;
+	height: 100%;
+}
+
+.section1{
+	background-color:blue;
+	height: 100px;
+}
+
+.section1_left{
+	background-color:white;
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+
+.section1_right{
+	background-color: white;
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+
+.section2{
+	background-color: aqua;
+	height: 100px;
+
+}
+
+.section2_1{
+	float: left;
+	background-color: white;
+	width: 20%;
+	height: 100%;
+}
+
+.section2_2{
+	float: left;
+	background-color: white;
+	width: 60%;
+	height: 100%;
+
+}
+
+.section2_3{
+	float: left;
+	background-color: white;
+	width: 20%;
+	height: 100%;
+}
+
+.section3{
+	background-color: white;
+	height: 800px;
+}
+
+.section3_1{
+	background-color: azure;
+	width: 30%;
+	float: left;
+	height: 100%;
+}
+
+.section3_2{
+	background-color: chartreuse;
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.section4{
+	background-color: darkblue;
+	height: 100px;
+
+}
+
+
+.section4_1{
+	background-color: aquamarine;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.section4_2{
+	background-color: fuchsia;
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+
+.section4_3{
+	background-color: darkkhaki;
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+
+.section5{
+	background-color: darkturquoise;
+	height: 100px;
+}
+
+.section5_1{
+	background-color: darkgreen;
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+.section5_2{
+	background-color: black;
+	height: 100%;
+	width: 60%;
+	float: left;
+}
+
+.section5_3{
+	background-color: darkcyan;
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+#section1_left_font{
+	font-size: 15px;
+	font-family: Arial;
+	color: black;
+}
+
+#img_social{
+	width: 130px;
+	float: right;
+	margin: 50px;
+}
+
+
+
+#company_icon{
+	width: 200px;
+	margin: 10px;
+}
+
+
+#section2_2_font{
+	font-family: Arial;
+	font-size: 15px;
+	margin: 20px, 0px, 0px, 25px;
+}
+
+
+.img_section2_3{
+	width: 25px;
+	float: right;
+	padding: 20px;
+	float: right;
+}
+
+.section2_2_item{
+	padding: 15px;
+	font-size: 25px;
+	font-family: 'Times New Roman';
+	text-align: center;
+}
+
+#section3_1_color{
+	color: orange;
+}
+
+.section3_1_item{
+	font-size: 15px;
+	font-family: 'Times New Roman';
+	float: left;
+	width: 100%;
+}
