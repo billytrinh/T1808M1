@@ -3,7 +3,7 @@ body{
 	padding: 0;
 	font-family: sans-serif;
 }
-a{
+a,u{
 	text-decoration: none;
 	color: #34404b;
 }
@@ -328,7 +328,7 @@ section{
 .title_2{
 	margin-top: 90px;
 	text-align: center;
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 }
 .title_2 h1{
 	margin: 0;
@@ -434,6 +434,71 @@ section{
 	color: #ff5913;
 	font-weight: 800;
 }
+.sale_items{
+	width: 1170px;
+	height: 110px;
+	display: flex;
+}
+.sale_item{
+	height: 100%;
+	width: 30%;
+	margin: 2%;
+	background-color: #fff;
+	display: flex;
+}
+.sale_item img{
+	width: 60px;
+	height: 60px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.sale_item .content{
+	margin-top: 20px;
+	width: 60%;
+	height: 100%;
+	display: block;
+	margin-left: 30px;
+}
+.sale_item button{
+	background: none;
+	border:none;
+	outline: none;
+	color: #ff5913;
+	font-size: 14pt;
+	font-weight: 700;
+	margin-top: 10px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.sale_item button:hover{
+	transform: scale(1.2);
+}
+.sale_item .price{
+	width: 50%;
+}
+.sale_item .price p{
+	color: #ff5913;
+	text-align: right;
+}
+.sale_item p{
+	font-size: 14pt;
+	color: #34404b;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+}
+.sale_item .rated{
+	width: 100%;
+	display: flex;
+	margin-top: 20px;
+}
+.sale_item .content .star{
+	display: flex;
+	letter-spacing: 3px;
+	font-size: 10pt;
+	color: #ff5913;
+	width: 50%;
+}
 .bottom_banner .banner{
 	width: 1170px;
 	height: 100px;
@@ -527,6 +592,10 @@ footer{
 .logobottom{
 	width: 25%;
 	height: 100%;
+}
+.logobottom u{
+	font-size: 8pt;
+	color: #34404b80;
 }
 .listlink{
 	width: 55%;
