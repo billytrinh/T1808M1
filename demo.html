@@ -4,51 +4,18 @@
 		<title>Day la trang demo lop T1808M1</title>
 		<meta charset="UTF-8"/>
 		<link rel="stylesheet" href="css/style.css"/>
-		<script type="text/javascript">
-			 var x = [];
-			// x[0] = form_nhap_so("Nhap so thu nhat:");
-			// x[1] = form_nhap_so("Nhap so thu 2:");
-			// x[2] = form_nhap("Nhap nam sinh cua ban:");
-			//alert (x[0]+" "+x[1]+"--"+x[2]);
-			// show_popup("Tong 2 so: "+(x[0]+x[1]));
-			function form_nhap_so(str){
-			 	var a;
-			 	do{
-				 	a = prompt(str);
-				 }while(a == null || a == "" || isNaN(parseInt(a)));
-			 	return parseInt(a);
-			 }
 
-			 function show_popup(str){
-			 	//console.log(event.keyCode);
-			 	if(event.keyCode == 13){
-			 		alert('da nhap xong');
-			 	}
-			 	alert(str);
-			 	
-			 }
-
-			 // setTimeout(function(){
-			 // 	alert("xuat hien sau 3s");
-			 // },3000);
-
-			 // setInterval(function(){
-			 // 	alert("xuat hien moi 3s");
-			 // },3000);
-			// alert("aaa");
-			function popup(){
-				var x;
-				x = prompt("Nhap thong tin");
-				alert(x);
-			}	
-		</script>
 	</head>
 	<body>
-		<div class="box" onmouseenter="show_popup('hello')" onmouseleave="show_popup('out')"></div>
+		<div class="box" ></div>
 
 		<button type="button" onclick="popup()" onmouseenter="aaa()">CLick here</button>	
 		<!-- table -->
-		<table border="1" >
+		<button type="button" onclick="table_color_red()">Change RED</button>
+		<button type="button" onclick="table_color_green()">Change GREEN</button>
+		<button type="button" onclick="show_table()">SHOW</button>
+		<button type="button" onclick="hide_table()">HIDE</button>
+		<table border="1" id="tableID">
 			<thead>
 				<th>No</th>
 				<th>Họ tên</th>
@@ -113,7 +80,63 @@
 			<button type="button" onclick="alert('Ban muon tiep tuc?')">Submit</button>
 		</form>
 
+		<script type="text/javascript">
+			
+			
+			function table_color_red(){
+				var tb = document.getElementById("tableID");
+				tb.style.color = "red";
+			}
 
+			function table_color_green(){
+				var tb = document.getElementById("tableID");
+				tb.style.color = "green";
+			}
+
+			function show_table(){
+				var tb = document.getElementById("tableID");
+				tb.style.display = "table";
+			}
+			function hide_table(){
+				var tb = document.getElementById("tableID");
+				tb.style.display = "none";
+			}
+			// x[0] = form_nhap_so("Nhap so thu nhat:");
+			// x[1] = form_nhap_so("Nhap so thu 2:");
+			// x[2] = form_nhap("Nhap nam sinh cua ban:");
+			//alert (x[0]+" "+x[1]+"--"+x[2]);
+			// show_popup("Tong 2 so: "+(x[0]+x[1]));
+			function form_nhap_so(str){
+			 	var a;
+			 	do{
+				 	a = prompt(str);
+				 }while(a == null || a == "" || isNaN(parseInt(a)));
+			 	return parseInt(a);
+			 }
+
+			 function show_popup(str){
+			 	//console.log(event.keyCode);
+			 	if(event.keyCode == 13){
+			 		alert('da nhap xong');
+			 	}
+			 	alert(str);
+			 	
+			 }
+
+			 // setTimeout(function(){
+			 // 	alert("xuat hien sau 3s");
+			 // },3000);
+
+			 // setInterval(function(){
+			 // 	alert("xuat hien moi 3s");
+			 // },3000);
+			// alert("aaa");
+			function popup(){
+				var x;
+				x = prompt("Nhap thong tin");
+				alert(x);
+			}	
+		</script>
 	</body>
 
 </html>
