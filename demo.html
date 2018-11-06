@@ -46,6 +46,18 @@
 			</tbody>
 		</table>
 
+		<br/>
+		<br/>
+		<br/>
+		<textarea id="textarea-input" onkeyup="showText()" cols="100" rows="5"></textarea>
+		<div id="textshow"></div>
+
+		<br/>
+		<br/>
+
+
+
+
 		<!-- FORM -->
 
 		<form method="GET" action="#" name="form_data" class="form" enctype="multipart/form_data">
@@ -84,7 +96,24 @@
 		</form>
 
 		<script type="text/javascript">
-			
+			/* 
+				X -- HTML ELEMENT OBJECT
+
+				X.style.color = "red"
+				X.value  --> value cua input, textarea, select
+				X.innerHTML
+				X.innerText
+				X.classList.add("hello")
+			*/	
+			function showText(){
+				if(event.keyCode == 13){
+					var txt = document.getElementById("textarea-input");
+					var text = txt.value;
+					var div = document.getElementById("textshow");
+					div.innerHTML = text;
+					//div.innerText = text;
+				}
+			}	
 			
 			function table_color_red(){
 				var tb = document.getElementById("tableID");
