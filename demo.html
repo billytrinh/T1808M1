@@ -184,7 +184,27 @@
 				var x;
 				x = prompt("Nhap thong tin");
 				alert(x);
-			}	
+			}
+
+			x = 50;
+			var it = setInterval(function(){
+				if(x > 0){
+					x-=5;
+					var z = random_number(); 
+					console.log(z);
+					do{
+						y = prompt("So du doan:");
+						y = parseInt(y)	;
+					}while(isNaN(y));
+					thong_bao(y,z,it);
+				}
+			},2000);
+			//random_number();
+			function random_number(){
+				var a = parseInt(Math.random()*100);
+				return a;
+			}
+				
 		</script>
 	</body>
 
