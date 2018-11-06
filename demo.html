@@ -95,6 +95,12 @@
 			<button type="button" onclick="alert('Ban muon tiep tuc?')">Submit</button>
 		</form>
 
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<input id="lucky-number" type="number" min="0" max="100" onkeyup="checkNumber()" />
+
 		<script type="text/javascript">
 			/* 
 				X -- HTML ELEMENT OBJECT
@@ -186,25 +192,41 @@
 				alert(x);
 			}
 
-			x = 50;
+
+
+			x = 10;
+			var z=0;
 			var it = setInterval(function(){
-				if(x > 0){
-					x-=5;
-					var z = random_number(); 
-					console.log(z);
-					do{
-						y = prompt("So du doan:");
-						y = parseInt(y)	;
-					}while(isNaN(y));
-					thong_bao(y,z,it);
-				}
+				z = random_number(); 
+				console.log(z);
 			},2000);
 			//random_number();
 			function random_number(){
 				var a = parseInt(Math.random()*100);
 				return a;
 			}
-				
+
+			function checkNumber(){
+				if(event.keyCode == 13){
+					if(x > 0){
+						var ip = document.getElementById("lucky-number");
+						var number = parseInt(ip.value);
+						thong_bao(number,z,it);	
+					}else{
+						alert("het luot");
+					}
+				}
+			}
+
+			function thong_bao(y,z,it){
+				if(y == z){
+					alert("trung thuong");
+					clearInterval(it);
+				}else{
+					alert("chua chinh xac")
+				}
+				x --;
+			}		
 		</script>
 	</body>
 
