@@ -27,9 +27,9 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>#1</td>
-					<td colspan="2">Lê Văn A</td>
-					<td rowspan="2">1/11/1999</td>
+					<td class="row1">#1</td>
+					<td class="row1" colspan="2">Lê Văn A</td>
+					<td class="row1" rowspan="2">1/11/1999</td>
 				</tr>
 				<tr>
 					<td>#2</td>
@@ -105,6 +105,12 @@
 				X.innerText
 				X.classList.add("hello")
 			*/	
+			// HTML Collection <--> array
+			var th = document.getElementsByTagName("th");
+			var td=  document.getElementsByClassName("row1");
+			// length
+			var lg = th.length;
+			// END
 			function showText(){
 				if(event.keyCode == 13){
 					var txt = document.getElementById("textarea-input");
