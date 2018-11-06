@@ -2,6 +2,7 @@ body{
 	padding: 0;
 	font-family: 'Maven Pro', sans-serif;
 	background-color: #f4f6f8;
+    font-family:sans-serif;
 }
 a:hover{
 	color: orange;
