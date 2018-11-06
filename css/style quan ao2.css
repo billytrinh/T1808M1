@@ -1,0 +1,151 @@
+.high{
+	width:100%;
+	height:150%;
+}
+.section{
+	float: left;
+	width: 100%;
+}
+.container{
+	width: 1400px;
+	margin: 0 auto;
+	background-color: #fff;
+	height: 100%;
+}
+.section_1{
+	width:100%;
+	height: 80px;
+}
+.section_1 img{
+           height:30px;
+		   width: 30px;
+		   float: left;
+}
+.section_1 .head{
+	      float:left;
+		  margin: 5px;
+}
+.section_1 .phonenumber{
+	      float:left;
+		  margin: 5px;
+}
+.section_1_1
+{
+	margin-left: 80px;
+}	
+.section_1_2 .facebook{
+	float: left;
+	margin-left: 750px;
+}
+.section_1_2 .twitter{
+	float: left;
+}
+.section_1_2 .google{
+	float: left;
+	margin-left:5px;
+}
+.section_1_2 .camera{
+	float: left;
+	margin-left: 5px;
+}
+.section_2 img{
+	height:65px;
+	width:135px;
+}
+.section_2{
+	float: left;
+	width:100%;
+	height:150px;
+}
+.section_2_1{
+	margin-left: 80px;
+	background-color: white;
+}
+.home{
+	margin-left:200px;
+}
+.distance{
+	margin-left: 45px;
+}	
+.search img{
+	height: 22px;
+	width: 22px;
+}
+.abc{
+	float: left;
+	margin-left: 910px;
+}
+.distance1{
+	float: left;
+	margin-left: 15px;
+}
+.section_3{
+}
+.section_3_1{
+	float: left;
+	margin-left: 500px;
+	width: 700px;
+}
+.section_3_1 img{
+	height: 150px;
+	width: 150px;
+}
+.section_3_2{
+	margin-left: 500px;
+	float: left;
+	width: 700px;
+}
+footer{
+    background-color: #fff;
+    height: 200px;
+}
+.container2{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+.copyrigh{
+
+    width: 25%;
+    padding-top: 60px;
+}
+footer p{
+    padding-top: 15px;
+    letter-spacing: 2px;
+    font-size: 8pt;
+    color: grey;
+}
+.list{
+    width: 40%;
+    display: flex;
+    padding-top: 60px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #34404b;
+    font-size: 12pt;
+}
+.list ul li a:hover{
+    color: orange;
+}
+.payment{
+    width: 35%;
+    text-align: right;
+}
+.payment p{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    font-size: 24pt;
+    color: orange;
+    font-style: italic;
+    font-weight: 800;
+}
+.payment .card{
+    cursor: pointer;
+    font-size: 24pt;
+    color: #34404b;
+    letter-spacing: 5px;
+}
+.payment .card i:hover{
+    color: orange;
+}
