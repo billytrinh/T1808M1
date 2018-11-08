@@ -1,4 +1,5 @@
 /* Website template by freewebsitetemplates.com */
+/* Website template by freewebsitetemplates.com */
 body {
 	background: #0b080c;
 	color: #ffffff;
@@ -38,7 +39,6 @@ img {
 #header div a.logo {
 	display: block;
 	height: 306px;
-	text-indent: -99999px;
 }
 #header div ul {
 	list-style: none;
@@ -107,7 +107,7 @@ img {
 	width: 570px;
 }
 #body div#background div div div {
-	padding: 61px 0 0 20px;
+	padding: 50px 0 0 20px;
 	width: 520px;
 }
 #body div#background div div div h1 {
@@ -167,7 +167,7 @@ p a:hover {
 	width: 320px;
 }
 #body div#section {
-	background: ;
+	background: black ;
 	padding: 0;
 	width: 100%;
 }
@@ -207,7 +207,7 @@ p a:hover {
 	width: 592px;
 }
 #body div#section ul li div p {
-	color: red;
+	color: #85603a;
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 30px;
@@ -385,6 +385,7 @@ p a:hover {
 	width: 280px;
 }
 #footer div#connect {
+	margin: -1px;
 	float: right;
 	overflow: hidden;
 	padding: 24px 0 0;
@@ -395,7 +396,7 @@ p a:hover {
 	float: left;
 	height: 25px;
 	margin: 0 0 0 45px;
-	text-indent: -99999px;
+
 }
 #footer div#connect a#facebook {
 	background: url(../images/icons.png) no-repeat 0 0;
