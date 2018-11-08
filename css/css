@@ -154,6 +154,7 @@ u {
 }
 .pricefilter button{
 	margin: 15px 70px;
+
 	width: 50px;
 	padding: 10px;
 	outline: none;
@@ -161,6 +162,13 @@ u {
 	width: 85px;
 	cursor: pointer;
 }
+.hop{
+     height: 100px;
+
+     width: 200px;
+     background-color: red;
+	}
+
 
 
 
