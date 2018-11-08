@@ -65,7 +65,7 @@ img {
 }
 #header div ul li a {
 	background: none;
-	color: #a3a3a3;
+	color: #eeb58c;
 	display: inline-block;
 	font-size: 14px;
 	height: 54px;
@@ -209,7 +209,7 @@ p a:hover {
 	width: 592px;
 }
 #body div#section ul li div p {
-	color: red;
+	color: #eeb58c;
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 30px;
