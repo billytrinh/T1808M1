@@ -39,6 +39,7 @@ img {
 	display: block;
 	height: 306px;
 	text-indent: -99999px;
+	background: url(../images/dogs.jpg);
 }
 #header div ul {
 	list-style: none;
@@ -167,9 +168,9 @@ p a:hover {
 	width: 320px;
 }
 #body div#section {
-	background: ;
 	padding: 0;
 	width: 100%;
+	background: #000000;
 }
 #body div ul {
 	list-style: none;
@@ -207,7 +208,7 @@ p a:hover {
 	width: 592px;
 }
 #body div#section ul li div p {
-	color: red;
+	color: #eeb58c;
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 30px;
