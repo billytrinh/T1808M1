@@ -33,8 +33,7 @@
 			margin-top: 90px;
 			margin-left: 90px;
 			border-radius: 100%;
-			transition: 2s;
-			animation-iteration-count: 
+			transition: 2s; 
 		}
 		#red{
 			width: 30px;
@@ -61,8 +60,9 @@
 			var val=a.value;
 			parseInt(val);
 			var b=document.getElementById('wheel');
-			b.style.transform="rotate(360deg)";
+			b.style.transform="rotate(val*360deg)";
 		}
+
 	</script>
 </body>
 </html>
