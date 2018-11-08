@@ -28,18 +28,34 @@
 			height: 100%;
 		}
 		#wheel{
-			width: 300px;
-			height: 300px;
-			margin-top: 90px;
-			margin-left: 90px;
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			margin-top: 250px;
+			margin-left: 250px;
 			border-radius: 100%;
-			transition: 2s; 
+			transition: 2s;
+			animation-timing-function: linear;
 		}
 		#red{
+			position: absolute;
 			width: 30px;
 			height: 30px;
 			background-color: red;
+			border-radius: 100%;
 		}
+		@keyframes rot{
+			0%{
+				transform: rotate(0deg);
+			}
+			50%{
+				transform: rotate(180deg);
+			}
+			100%{
+				transform: rotate(360deg);
+			}
+		}
+
 	</style>
 </head>
 <body>
@@ -49,18 +65,18 @@
 			<button id="btn" onclick="rot()">OK</button>
 		</div>
 		<div class="object">
-			<div id="wheel">
-				<div id="red"></div>
+		<div id="wheel">	
+			<div id="red"></div>
 			</div>
 		</div>
 	</div>
 	<script type="text/javascript">
 		function rot() {
-			var a=document.getElementById('in');
-			var val=a.value;
-			parseInt(val);
-			var b=document.getElementById('wheel');
-			b.style.transform="rotate(val*360deg)";
+			var a=document.getElementById("in").value;
+			console.log(a);
+			document.getElementById("wheel").style.animationName= "rot";
+			document.getElementById("wheel").style.animationDuration = "1s";
+			document.getElementById("wheel").style.animationIterationCount = a;
 		}
 
 	</script>
