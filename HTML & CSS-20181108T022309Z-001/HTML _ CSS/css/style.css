@@ -38,7 +38,6 @@ img {
 #header div a.logo {
 	display: block;
 	height: 306px;
-	text-indent: -99999px;
 }
 #header div ul {
 	list-style: none;
@@ -207,7 +206,7 @@ p a:hover {
 	width: 592px;
 }
 #body div#section ul li div p {
-	color: red;
+	color: #85603a;
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 30px;
@@ -388,6 +387,7 @@ p a:hover {
 	float: right;
 	overflow: hidden;
 	padding: 24px 0 0;
+	margin: -1px;
 	width: auto;
 }
 #footer div#connect a {
@@ -395,7 +395,6 @@ p a:hover {
 	float: left;
 	height: 25px;
 	margin: 0 0 0 45px;
-	text-indent: -99999px;
 }
 #footer div#connect a#facebook {
 	background: url(../images/icons.png) no-repeat 0 0;
