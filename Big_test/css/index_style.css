@@ -76,21 +76,42 @@ nav{
 }
 .main_menu ul{
 	display: flex;
-	line-height: 120px;
 	float: left;
 	padding: 0;
 	margin: 0;
 }
 .main_menu ul li{
+	display: block;
 	margin-right: 40px;
 	list-style: none;
 	font-size: 14pt;
 	cursor: pointer;
 	width: 100px;
+	margin-top: 40px;
+}
+.main_menu ul li a{
 	transition: 0.3s;
 }
+.main_menu ul li::before{
+	content: "";
+	position: absolute;
+	width: 80px;
+	height: 50px;
+	transform-origin: right;
+	transform: scale(0,0.05);
+	background-color: #ff5912;	
+	transition: 0.5s;
+}
+.main_menu ul li:hover::before{
+	transform-origin: left;
+	transform: scale(1,0.05);
+}
+.main_menu ul li:focus::before{
+	transform-origin: left;
+	transform: scale(1,0.05);
+}
 .main_menu ul li a:hover{
-	color: orange;
+	color: #ff5912;
 }
 .icontop{
 	height: 100%;
