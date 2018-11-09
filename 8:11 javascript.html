@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Example 8/11|DO MANH TRANG</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<style type="text/css">
 		body{
 			margin: 0;
@@ -62,7 +63,7 @@
 	<div class="container">
 		<div class="input">
 			<input type="number" name="" id="in">
-			<button id="btn" onclick="rot()">OK</button>
+			<button id="btn">OK</button>
 		</div>
 		<div class="object">
 		<div id="wheel">	
@@ -71,13 +72,12 @@
 		</div>
 	</div>
 	<script type="text/javascript">
-		function rot() {
-			var a=document.getElementById("in").value;
-			console.log(a);
-			document.getElementById("wheel").style.animationName= "rot";
-			document.getElementById("wheel").style.animationDuration = "1s";
-			document.getElementById("wheel").style.animationIterationCount = a;
-		}
+		$("#btn").click(function(){
+			var a=$("#in").val();
+			$("#red").css("animation-name","rot");
+			$("#red").css("animation-duration","2s");
+			$("#red").css("animation-iteration-count",a);
+		});
 
 	</script>
 </body>
