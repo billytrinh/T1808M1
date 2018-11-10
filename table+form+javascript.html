@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title> 	Danh sach hoc sinh </title>
+       <meta charset="UTF-8"/>
+       <link rel="stylesheet" hrel="css/style.css"/>
+       <script type ="text/javascript">
+    //var x;
+ 
+    //consle.log(x);
+    //alert(x);
+    var y =[];
+    //y =confirm(" Ban muon tiep tuc?");
+    //console.log(y);
+    do{
+      y[0]=prompt(" nhap ho cua ban:");
+         }while (y[0] == null || y[0] =="");
+           do{
+           y[1]=prompt(" nhap ten cua ban:");
+         }while (y[1] == null || y[1] =="");
+           do{
+           y[2]=prompt(" nhap ngay sinh cua ban:");
+         }while (y[2] == null || y[2] =="");
+         alert(y);
+
+
+    //prompt("nhap ten cua ban:");
+    //prompt("nhap nam sinh cua ban:");
+    console.log(y);
+ </script>
+    </head>
+    <body>
+       <table border="1">
+          <thead>
+            <th>STT</th>
+            <th>HỌ VÀ TÊN</th>
+            <th>GIỚI TÍNH</th>
+            <th>NGÀY SINH</th>
+            <th>QUÊ QUÁN</th>
+            <th>SĐT</th>
+           </thead>
+           <tbody>
+             <tr>
+              <td>#1</td>
+              <td>Nguyen Van A</td>
+              <td>Nu</td>
+              <td>1/1/1999</td>
+              <td>Phu Tho</td>
+              <td>0989686868</td>
+             </tr> 
+              <tr>
+              <td>#2</td>
+              <td>Nguyen Van B</td>
+              <td>Nu</td>
+              <td>1/1/1999</td>
+              <td>Phu Tho</td>
+              <td>0989686868</td>
+             </tr> 
+              <tr>
+              <td>#3</td>
+              <td>Nguyen Van C</td>
+              <td>Nu</td>
+              <td>1/1/1999</td>
+              <td>Phu Tho</td>
+              <td>0989686868</td>
+             </tr> 
+              <tr>
+              <td>#4</td>
+              <td>Nguyen Van D</td>
+              <td>Nu</td>
+              <td>1/1/1999</td>
+              <td>Phu Tho</td>
+              <td>0989686868</td>
+             </tr> 
+              <tr>
+              <td>#5</td>
+              <td>Nguyen Van E</td>
+              <td>Nu</td>
+              <td>1/1/1999</td>
+              <td>Phu Tho</td>
+              <td>0989686868</td>
+             </tr> 
+            </tbody>
+        </table>
+
+        <!-- FORM -->
+
+		<form method="GET" action="#" name="form_data" class="form" enctype="multipart/form_data">
+			<input type="text" name="username" placeholder="User name"  required /><br/>
+			<input type="email" name="email" placeholder="Email"  required/><br/>
+			<input type="password" name="password" placeholder="password" /><br/>
+			<input type="number" name="number" placeholder="number" /><br/>
+			<input type="color" name="color" placeholder="color" /><br/>
+			<input type="date" name="date" placeholder="date" /><br/>
+			<input type="file" name="file" placeholder="file" /><br/>
+			<input id="checkbox" type="checkbox" name="checkbox" placeholder="checkbox" />
+			<label for="checkbox">Checkbox</label>
+			<br/>
+			<input  type="radio" name="radio" placeholder="radio" />
+			<input  type="radio" name="radio" placeholder="radio" />
+			<input  type="radio" name="radio" placeholder="radio" />
+			<br/>
+			<select name="select">
+				<option value="1">No1</option>
+				<option value="2">No2</option>
+				<option value="3">No3</option>
+			</select>
+			<br/>
+			<select name="select" multiple>
+				<option value="1">No1</option>
+				<option value="2">No2</option>
+				<option value="3">No3</option>
+			</select>
+			<br/>
+			<textarea name="textarea" rows="5" cols="100">
+				
+			</textarea>
+			<br/>
+			<button type="submit">Submit</button>
+		</form>
+
+     </body>
+     
+  </html>           
+
+
+
+
+
