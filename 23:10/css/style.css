@@ -12,7 +12,7 @@ header{
 }
 .container{
 	margin: 0 auto;
-	width: 1170px;
+	width: 900px;
 }
 header .contact{
 	float: left;
@@ -336,6 +336,7 @@ u{
 	padding: 50px;
 	margin: 0 auto;
 	height: 50px;
+
 	background-color: #fff;
 	margin-bottom: 50px;
 }
@@ -350,11 +351,12 @@ u{
 	color: orange;
 	letter-spacing: 5px;
 }
+
+}
 .small{
 	font-family: 'Charmonman', cursive;
 	margin-left: 30px;
-	font-size: 16pt;
-}
+	font-size: 16pt;}
 .form{
 	width: 40%;
 	text-align: right;
