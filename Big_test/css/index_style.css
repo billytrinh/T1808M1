@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	display: block;
+	display: flex;
 }
 a,u{
 	text-decoration: none;
