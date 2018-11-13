@@ -6,6 +6,7 @@
 	<title>Layout Bootstrap</title>
 	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="vendor/jquery/jquery.js"></script>
 </head>
 <body>
 	<section class="col-lg-12">
@@ -45,7 +46,9 @@
 				  <button type="button" class="btn btn-primary">Submit</button>
 				  <button type="button" class="btn btn-danger">Submit</button>
 				</form>
-				<table class="table table-bordered">
+				<button type="button" onclick="showTable()">Show Table</button>
+				<button type="button" onclick="hideTable()">Hide Table</button>
+				<table class="table table-bordered" id="tbID" style="display: none;">
 					<thead>
 						<th>Name</th>
 						<th>Email</th>
@@ -57,6 +60,7 @@
 						</tr>
 					</tbody>
 				</table>
+				
 			</div>
 		</div>
 	</section>
@@ -86,5 +90,30 @@
 			<div class="col-lg-3" style="background-color: blue;height: 100px;"></div>
 		</div>
 	</section>
+	<script type="text/javascript">
+		//var y = document.getElementById("tbID"); // JS thong thuong
+		//var x = $("#tbID"); // jQuery("#tbID");
+		var x = $(".table"); 
+		//var x = $("table");
+		x.css("color","red");
+		x.css({
+			"color": "red",
+			"margin": "20px",
+			"transform": "translateX(100px)",
+			"background-color":"orange" 
+		});
+		//console.log(x.html());  --> text()
+		//x.html("<p>Hello</p>");
+		x.addClass("active"); // x.removeClass("active");
+		//x.hasClass("active")
+		function showTable() {
+			var tb = $(".table");
+			tb.fadeIn(); // fadeOut()
+		}
+		function hideTable(){
+			var tb = $(".table");
+			tb.fadeOut(); // fadeOut()
+		}
+	</script>
 </body>
 </html>
