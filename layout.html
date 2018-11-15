@@ -46,22 +46,22 @@
 		</div>
 	</footer>
 	<script type="text/javascript">
-		var html = '';
-		for (var i = 0; i < products.length; i++) {
-			html += '<div class="item">';
-			html +=		'<figure>';
-			html +=			'<img src="images/'+products[i].image+'"/>';
-			html +=			'<figcaption>'+products[i].name+'</figcaption>';
-			html +=			'<span>'+products[i].price+'</span>';
-			html +=			'<p>Size: S - M - L - XL</p>';
-			html +=			'<div class="box">';
-			html +=				'<div>&nbsp;</div>';
-			html +=				'<div>&nbsp;</div>';
-			html +=				'<div>&nbsp;</div>';
-			html +=				'<div>&nbsp;</div>';
-			html +=			'</div>';
-			html +=		'</figure>';
-			html +=	'</div>';
+		var html= '';
+		for(var i=0;i< products.length;i++){	
+			html+= '<div class="item">';
+			html+=		'<figure>';
+			html+=			'<img src="images/'+products[i].image+'"/>';
+			html+=			'<figcaption>'+products[i].name+'</figcaption>';
+			html+=			'<span>'+products[i].price+'</span>';
+			html+=			'<p>Size: S - M - L - XL</p>';
+			html+=			'<div class="box">';
+			html+=				'<div>&nbsp;</div>';
+			html+=				'<div>&nbsp;</div>';
+			html+=				'<div>&nbsp;</div>';
+			html+=				'<div>&nbsp;</div>';
+			html+=			'</div>';
+			html+=		'</figure>';					
+			html+=	'</div>';
 		}
 		document.getElementById("product_list").innerHTML = html;
 	</script>
