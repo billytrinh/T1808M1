@@ -1,0 +1,108 @@
+var products = [
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "1000$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "200$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "300$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "400$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "500$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "600$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "400$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "500$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "600$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "400$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "500$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "600$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "400$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "500$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "600$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "400$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "500$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "600$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "400$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "500$"
+	},
+	{
+		name: "Reebok sport jacket",
+		image: "product1.png",
+		price: "600$"
+	},
+
+];

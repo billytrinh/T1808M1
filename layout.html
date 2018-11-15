@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:100,300,400,400i,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="vendor/fontawesome/css/all.css"/>
+	<script type="text/javascript" src="js/data.json"></script>
 </head>
 <body>
 	<section class="section section_1">
@@ -29,97 +30,8 @@
 	<section class="section section_3">
 		<div class="container">
 			<div class="section_3_1"></div>
-			<div class="section_3_2">
-				<div class="item">
-					<figure>
-						<img src="images/product1.png"/>
-						<figcaption>Reebok sport jacket</figcaption>
-						<span>100$</span>
-						<p>Size: S - M - L - XL</p>
-						<div class="box">
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-						</div>
-					</figure>
-					
-				</div>
-				<div class="item">
-					<figure>
-						<img src="images/product1.png"/>
-						<figcaption>Reebok sport jacket</figcaption>
-						<span>100$</span>
-						<p>Size: S - M - L - XL</p>
-						<div class="box">
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-						</div>
-					</figure>
-					
-				</div>
-				<div class="item">
-					<figure>
-						<img src="images/product1.png"/>
-						<figcaption>Reebok sport jacket</figcaption>
-						<span>100$</span>
-						<p>Size: S - M - L - XL</p>
-						<div class="box">
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-						</div>
-					</figure>
-					
-				</div>
-				<div class="item">
-					<figure>
-						<img src="images/product1.png"/>
-						<figcaption>Reebok sport jacket</figcaption>
-						<span>100$</span>
-						<p>Size: S - M - L - XL</p>
-						<div class="box">
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-						</div>
-					</figure>
-					
-				</div>
-				<div class="item">
-					<figure>
-						<img src="images/product1.png"/>
-						<figcaption>Reebok sport jacket</figcaption>
-						<span>100$</span>
-						<p>Size: S - M - L - XL</p>
-						<div class="box">
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-						</div>
-					</figure>
-					
-				</div>
-				<div class="item">
-					<figure>
-						<img src="images/product1.png"/>
-						<figcaption>Reebok sport jacket</figcaption>
-						<span>100$</span>
-						<p>Size: S - M - L - XL</p>
-						<div class="box">
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-							<div>&nbsp;</div>
-						</div>
-					</figure>
-					
-				</div>
+			<div class="section_3_2" id="product_list">
+				
 			</div>
 		</div>
 	</section>
@@ -133,5 +45,25 @@
 			
 		</div>
 	</footer>
+	<script type="text/javascript">
+		var html = '';
+		for (var i = 0; i < products.length; i++) {
+			html += '<div class="item">';
+			html +=		'<figure>';
+			html +=			'<img src="images/'+products[i].image+'"/>';
+			html +=			'<figcaption>'+products[i].name+'</figcaption>';
+			html +=			'<span>'+products[i].price+'</span>';
+			html +=			'<p>Size: S - M - L - XL</p>';
+			html +=			'<div class="box">';
+			html +=				'<div>&nbsp;</div>';
+			html +=				'<div>&nbsp;</div>';
+			html +=				'<div>&nbsp;</div>';
+			html +=				'<div>&nbsp;</div>';
+			html +=			'</div>';
+			html +=		'</figure>';
+			html +=	'</div>';
+		}
+		document.getElementById("product_list").innerHTML = html;
+	</script>
 </body>
 </html>
