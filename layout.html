@@ -6,7 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:100,300,400,400i,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="vendor/fontawesome/css/all.css"/>
-	<script type="text/javascript" src="js/data.json"></script>
+	<script type="text/javascript" src="vendor/jquery/jquery.js"></script>
 </head>
 <body>
 	<section class="section section_1">
@@ -46,24 +46,32 @@
 		</div>
 	</footer>
 	<script type="text/javascript">
-		var html= '';
-		for(var i=0;i< products.length;i++){	
-			html+= '<div class="item">';
-			html+=		'<figure>';
-			html+=			'<img src="images/'+products[i].image+'"/>';
-			html+=			'<figcaption>'+products[i].name+'</figcaption>';
-			html+=			'<span>'+products[i].price+'</span>';
-			html+=			'<p>Size: S - M - L - XL</p>';
-			html+=			'<div class="box">';
-			html+=				'<div>&nbsp;</div>';
-			html+=				'<div>&nbsp;</div>';
-			html+=				'<div>&nbsp;</div>';
-			html+=				'<div>&nbsp;</div>';
-			html+=			'</div>';
-			html+=		'</figure>';					
-			html+=	'</div>';
-		}
-		document.getElementById("product_list").innerHTML = html;
+		jQuery.ajax({
+			url: "http://smsentertainment.club/api/get_products",
+			method:"GET",
+			success: function(result){
+				var html= '';
+				for(var i=0;i< result.data.length;i++){	
+					html+= '<div class="item">';
+					html+=		'<figure>';
+					html+=			'<img src="'+result.data[i].image+'"/>';
+					html+=			'<figcaption>'+result.data[i].name+'</figcaption>';
+					html+=			'<span>'+result.data[i].price+'</span>';
+					html+=			'<p>Size: S - M - L - XL</p>';
+					html+=			'<div class="box">';
+					html+=				'<div>&nbsp;</div>';
+					html+=				'<div>&nbsp;</div>';
+					html+=				'<div>&nbsp;</div>';
+					html+=				'<div>&nbsp;</div>';
+					html+=			'</div>';
+					html+=		'</figure>';					
+					html+=	'</div>';
+				}	
+				$("#product_list").html(html); 
+			}
+		});
+		
+		
 	</script>
 </body>
 </html>
