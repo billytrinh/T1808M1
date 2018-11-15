@@ -1,11 +1,11 @@
 var products = [
 	{
-		name: "Reebok sport jacket",
+		name: "San pham 1",
 		image: "product1.png",
 		price: "1000$"
 	},
 	{
-		name: "Reebok sport jacket",
+		name: "San pham 2",
 		image: "product1.png",
 		price: "200$"
 	},
