@@ -1,0 +1,14 @@
+var product =[
+	{
+		name: "Name here",
+		price: "€. 4344.00"
+	},
+	{
+		name: "Abc",
+		price: "€. 44.00"
+	},
+	{
+		name: "Xyz",
+		price: "€. 4.00"
+	}
+];
