@@ -11,7 +11,7 @@ a{
 	font-size: 15px;
 	color: gray;
 	font-weight: 700; 
-	font-family: 'Poor Story', cursive;
+	font-family: Arial;
 	line-height: 22.5px;
 	text-decoration: none;
 	
@@ -48,7 +48,7 @@ a{
 
 
 .item img{
-	transition: 2s all;
+	transition: 1s all;
 }
 .item .box > div{
 	width: 10px;
@@ -74,7 +74,7 @@ a{
 }
 .item:hover figcaption{
 	transform: translateY(-100px);
-	color: pink;
+	color: orange;
 }
 .item:hover span{
 	display: none;
