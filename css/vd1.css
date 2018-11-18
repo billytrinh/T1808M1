@@ -1,6 +1,9 @@
 body{
 	background-color: #f4f6f8;
-	font-family: 'Roboto';
+}
+
+div{
+	background-color: red;
 }
 img{
 	
@@ -9,7 +12,7 @@ a{
 	font-size: 15px;
 	color: gray;
 	font-weight: 400; /*100 300 400 500 600 700 800 900;*/
-	font-family: 'Roboto', sans-serif;
+	font-family: Arial;
 	line-height: 22.5px;
 	text-decoration: none;/* overline underline line-through */
 	text-align: center;/* left  right center justify */
@@ -22,12 +25,14 @@ a{
 	float: left; /* left right none */
 	text-align: center;
 	margin:15px;
-	/*padding:15px;*/
+	padding:15px;
 	border-radius: 10px;
 	overflow: hidden;
-	/*animation-name: example;
+	/*
+	animation-name: example;
     animation-duration: 2s;
-   	animation-iteration-count: 1;*/
+   	animation-iteration-count: 1;
+   	*/
 }
 .item a span{
 	color:yellow;
@@ -138,12 +143,12 @@ a{
 
 .section_3{
 	background-color: blue;
-	
+	height: 800px;
 }
 .section_3_1{
 	float:left;
 	width: 25%;
-	height: 800px;
+	height: 100%;
 	background-color: yellow;
 }
 .section_3_2{
@@ -162,58 +167,3 @@ a{
 	background-color: red;
 	height: 100px;
 }
-
-/* responsive */
-@media screen and (min-width: 992px) and (max-width: 1199px){
-	.container{
-		width: 970px;
-	}
-}
-@media screen and (max-width: 992px) and (min-width: 769px){
-	.container{
-		width: 750px;
-	}
-	.section_2_1{
-		width: 50%;
-	}
-	.section_2_2{
-		display: none;
-	}
-	.section_2_3{
-		width: 50%;
-	}
-	.section_3_1{
-		display: none;
-	}
-	.section_3_2{
-		width: 100%;
-	}
-}
-@media screen and (max-width: 768px) {
-	.container{
-		width: 100%;
-	}
-	.section_2_1{
-		width: 100%;
-	}
-	.section_2_2{
-		display: none;
-	}
-	.section_2_3{
-		width: 100%;
-	}
-	.section_3_1{
-		display: none;
-	}
-	.section_3_2{
-		width: 100%;
-	}
-}
-
-.box{
-	width: 200px;
-	height: 100px;
-	background-color: red;
-}
-
-.container{width: 1200px;}

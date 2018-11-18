@@ -43,12 +43,12 @@ text-decoration: none;
 	font-size: 20px;
 	color: orange;
 }
-.pts figcaption{
+.sang1 figcaption{
 	font-family: 'Poor Story', cursive;
 	font-weight: 900;
 	font-size: 20px;
 }
-.sang1:hover p img{
+.sang1:hover img{
 	transform: scale(0.5) translateY(-100px);
 }
 .sang1:hover figcaption{
@@ -58,11 +58,12 @@ text-decoration: none;
 .sang1:hover span{
 	display: none;
 }
-.sang1 a{
+.sang1 p{
+	overflow: hidden;
     color: #f4f6f8;
 	display: inline-block;
 }
-.sang1:hover a{
+.sang1:hover p{
 	
 	transform: translateY(-120px);
 	color: black;

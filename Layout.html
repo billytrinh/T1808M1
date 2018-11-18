@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:100,300,400,400i,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="vendor/fontawesome/css/all.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+	<section class="section section_1">
+		<div class="container">
+			<div class="section_1_left">
+				<i class="fas fa-anchor"></i>
+			</div>
+			<div class="section_1_right">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-instagram"></i>
+			</div>
+		</div>
+	</section>
+	<header class="section section_2">
+		<div class="container">
+			<div class="section_2_1"></div>
+			<div class="section_2_2"></div>
+			<div class="section_2_3"></div>
+		</div>
+	</header>
+	<section class="section section_3">
+		<div class="container">
+			<div class="section_3_1"></div>
+			<div class="section_3_2" id="product_list">
+				
+			</div>
+		</div>
+	</section>
+	<section class="section section_4">
+		<div class="container">
+			
+		</div>
+	</section>
+	<footer class="section section_5">
+		<div class="container">
+			
+		</div>
+	</footer>
+	<script type="text/javascript">
+		jQuery.ajax({
+			url: "http://smsentertainment.club/api/get_products",
+			method:"GET",
+			success: function(result){
+				var html= '';
+				for(var i=0;i< result.data.length;i++){	
+					html+= '<div class="item">';
+					html+=		'<figure>';
+					html+=			'<img src="'+result.data[i].image+'"/>';
+					html+=			'<figcaption>'+result.data[i].name+'</figcaption>';
+					html+=			'<span>'+result.data[i].price+'</span>';
+					html+=			'<p>Size: S - M - L - XL</p>';
+					html+=			'<div class="box">';
+					html+=				'<div>&nbsp;</div>';
+					html+=				'<div>&nbsp;</div>';
+					html+=				'<div>&nbsp;</div>';
+					html+=				'<div>&nbsp;</div>';
+					html+=			'</div>';
+					html+=		'</figure>';					
+					html+=	'</div>';
+				}	
+				$("#product_list").html(html); 
+			}
+		});
+		
+		
+	</script>
+</body>
+</html>

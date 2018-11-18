@@ -1,0 +1,44 @@
+<!Doctype>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hic</title>
+	<link rel="stylesheet" type="text/css" href="css/vd5.css">
+	<script type="text/javascript">
+		function powup () {
+		var y=[];
+		do{
+		    y[0]=prompt("Nhập họ của bạn");
+	    }while(y[0]==null||y[0]=="");
+	    do{
+            y[1]=prompt("Nhập tên đệm của bạn");
+        }while(y[1]==null||y[1]=="");
+        do{
+            y[2]=prompt("Nhập tên của bạn");
+        }while(y[2]==null||y[2]=="");
+		do{
+		    y[3]=prompt("Nhập năm sinh của bạn");
+	    }while(y[3]==null||y[3]=="");
+	    alert(y[0] + "  " + y[1] + "  "+ y[2] + "  " +y[3]); 
+		console.log(y);
+	}
+	function vao (){
+		var x;
+		x= prompt ('xin chao ');
+		alert(x);
+	}
+	function ra (){
+		var y;
+		y=prompt("tam biet");
+		alert (y);
+	}
+	</script>
+</head>
+<body>
+	<button style="submit" onclick="powup()" >submit</button>
+	<div class="sang" onmouseenter="vao('hic')"
+	                   onmouseleave ="ra()"></div>
+     
+
+</body>
+</html>

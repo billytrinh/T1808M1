@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Day la trang demo lop T1808M1</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/style.css"/>
+
+	</head>
+	<body>
+		<div class="box" ></div>
+
+		<button type="button" onclick="popup()" onmouseenter="aaa()">CLick here</button>	
+		<!-- table -->
+		<button type="button" onclick="table_color_red()">Change RED</button>
+		<button type="button" onclick="table_color_green()">Change GREEN</button>
+		<button type="button" onclick="show_table()">SHOW</button>
+		<button type="button" onclick="hide_table()">HIDE</button>
+		<br/>
+
+		<input id="input-color" type="text" onkeyup="changeColor()" />
+		<table border="1" id="tableID">
+			<thead>
+				<th>No</th>
+				<th>Họ tên</th>
+				<th>Email</th>
+				<th>Ngày sinh</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>#1</td>
+					<td colspan="2">Lê Văn A</td>
+					<td rowspan="2">1/11/1999</td>
+				</tr>
+				<tr>
+					<td>#2</td>
+					<td>Lê Văn B</td>
+					<td>levana@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>#3</td>
+					<td>Lê Văn C</td>
+					<td>levana@gmail.com</td>
+					<td>1/11/1999</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- FORM -->
+
+		<form method="GET" action="#" name="form_data" class="form" enctype="multipart/form_data">
+			<input type="text" name="username" onkeypress="show_popup('keypress')" placeholder="User name"  required /><br/>
+			<input type="text" name="username"  placeholder="User name 222"  required /><br/>
+			<input type="email" onkeydown="show_popup('keydown')" name="email" placeholder="Email"  required/><br/>
+			<input type="password"  name="password" placeholder="password" /><br/>
+			<input type="number" onkeyup="show_popup('keyup')" name="number" placeholder="number" /><br/>
+			<input type="color" name="color" placeholder="color" /><br/>
+			<input type="date" name="date" placeholder="date" /><br/>
+			<input type="file" name="file" placeholder="file" /><br/>
+			<input id="checkbox" type="checkbox" name="checkbox" placeholder="checkbox" />
+			<label for="checkbox">Checkbox</label>
+			<br/>
+			<input  type="radio" name="radio" placeholder="radio" />
+			<input  type="radio" name="radio" placeholder="radio" />
+			<input  type="radio" name="radio" placeholder="radio" />
+			<br/>
+			<select name="select" onchange="alert('onchange')">
+				<option value="1">No1</option>
+				<option value="2">No2</option>
+				<option value="3">No3</option>
+			</select>
+			<br/>
+			<select name="select" multiple>
+				<option value="1">No1</option>
+				<option value="2">No2</option>
+				<option value="3">No3</option>
+			</select>
+			<br/>
+			<textarea name="textarea" oncopy="alert('copy')" oncut="alert('Cut')" onpaste= "alert('paste')" rows="5" cols="100">
+				
+			</textarea>
+			<br/>
+			<button type="button" onclick="alert('Ban muon tiep tuc?')">Submit</button>
+		</form>
+
+		<script type="text/javascript">
+			
+			
+			function table_color_red(){
+				var tb = document.getElementById("tableID");
+				tb.style.color = "red";
+			}
+			function table_color_green(){
+				var tb = document.getElementById("tableID");
+				tb.style.color = "green";
+			}
+			function show_table(){
+				var tb = document.getElementById("tableID");
+				tb.style.display = "table";
+			}
+			function hide_table(){
+				var tb = document.getElementById("tableID");
+				tb.style.display = "none";
+			}
+			function changeColor(){
+				//console.log(event.keyCode);
+				if(event.keyCode == 13){
+					var ip = document.getElementById("input-color");
+					var color = ip.value;
+					var tb = document.getElementById("tableID");
+					tb.style.color = color;
+				}
+				
+			}
+			// x[0] = form_nhap_so("Nhap so thu nhat:");
+			// x[1] = form_nhap_so("Nhap so thu 2:");
+			// x[2] = form_nhap("Nhap nam sinh cua ban:");
+			//alert (x[0]+" "+x[1]+"--"+x[2]);
+			// show_popup("Tong 2 so: "+(x[0]+x[1]));
+			function form_nhap_so(str){
+			 	var a;
+			 	do{
+				 	a = prompt(str);
+				 }while(a == null || a == "" || isNaN(parseInt(a)));
+			 	return parseInt(a);
+			 }
+			 function show_popup(str){
+			 	//console.log(event.keyCode);
+			 	if(event.keyCode == 13){
+			 		alert('da nhap xong');
+			 	}
+			 	alert(str);
+			 	
+			 }
+			 // setTimeout(function(){
+			 // 	alert("xuat hien sau 3s");
+			 // },3000);
+			 // setInterval(function(){
+			 // 	alert("xuat hien moi 3s");
+			 // },3000);
+			// alert("aaa");
+			function popup(){
+				var x;
+				x = prompt("Nhap thong tin");
+				alert(x);
+			}	
+		</script>
+	</body>
+
