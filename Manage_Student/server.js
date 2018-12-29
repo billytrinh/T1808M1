@@ -139,7 +139,7 @@ MongoClient.connect(url, function (err, db) {
 	 		}
 		});
 	}); 
-	app.post("/them-sinh-vien",function(req,res){
+	app.post("/them-lop-hoc",function(req,res){
 		var data = {
 			ma_lop: req.body.ma_lop,
 			ten_lop: req.body.ten_lop,
