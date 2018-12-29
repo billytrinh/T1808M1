@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-
+app.use(express.static('public'));
 app.listen("3003",function(){
 	console.log("server is running");
 });
@@ -26,11 +26,12 @@ MongoClient.connect(url, function (err, db) {
    	// Them 1 lop hoc
    	var collection = db.db();
    	var lophoc = collection.collection("lophoc");
-   	var lophoc1 = {
-   		ma_lop: 't1808m1',
-   		ten_lop: 'T1808M1',
-   		phong_hoc: '208'
-   	};
+   	var sinhvien = collection.collection("sinhvien");
+   	// var lophoc1 = {
+   	// 	ma_lop: 't1808m1',
+   	// 	ten_lop: 'T1808M1',
+   	// 	phong_hoc: '208'
+   	// };
    	/*
    	lophoc.insert([lophoc1],function(err,result){
    		if(err){
@@ -75,6 +76,25 @@ MongoClient.connect(url, function (err, db) {
 	    
 	  });
 	  */
+
+	app.get("/list_class",function(req,res){
+		lophoc.find({}).toArray(function (err, result) {
+	 		if(err){
+	 			res.send({
+	 				status: 0,
+	 				message: 'Fail'
+	 			});
+	 		}else{
+	 			//console.log(result);
+	 			res.send({
+	 				status: 1,
+	 				message: 'Success',
+	 				data: result
+	 			});
+	 		}
+  		});
+	});  
+
  }
 });
 
