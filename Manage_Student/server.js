@@ -32,15 +32,20 @@ MongoClient.connect(url, function (err, db) {
    	// 	ten_lop: 'T1808M1',
    	// 	phong_hoc: '208'
    	// };
-   	/*
-   	lophoc.insert([lophoc1],function(err,result){
-   		if(err){
-   			console.log("khong thanh cong");
-   		}else{
-   			console.log("them lop thanh cong");
-   		}
-   	});
-   	*/
+   	// var lophoc2 = {
+   	// 	ma_lop: 't1808a1',
+   	// 	ten_lop: 'T1808A1',
+   	// 	phong_hoc: 'A10'
+   	// };
+   	
+   	// lophoc.insert([lophoc1,lophoc2],function(err,result){
+   	// 	if(err){
+   	// 		console.log("khong thanh cong");
+   	// 	}else{
+   	// 		console.log("them lop thanh cong");
+   	// 	}
+   	// });
+   	
 
    	// danh sach lop hoc
    	/*
@@ -105,6 +110,24 @@ MongoClient.connect(url, function (err, db) {
 	    }
 	    
 	  });
+	});
+	app.get("/chi-tiet-lop-hoc",function(req,res){
+		var id =  req.query.id;
+		lophoc.find({_id:mongodb.ObjectId(id)}).toArray(function (err, result) {
+			if(err || result.length <1){
+	 			res.send({
+	 				status: 0,
+	 				message: 'Fail'
+	 			});
+	 		}else{
+	 			var data = result[0];
+ 				res.send({
+	 				status: 1,
+	 				message: 'Success',
+	 				data: data
+	 			});
+	 		}
+		});
 	});
  }
 });
