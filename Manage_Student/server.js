@@ -78,7 +78,7 @@ MongoClient.connect(url, function (err, db) {
 	  */
 
 	app.get("/list_class",function(req,res){
-		lophoc.find({}).toArray(function (err, result) {
+		lophoc.find().toArray(function (err, result) {
 	 		if(err){
 	 			res.send({
 	 				status: 0,
@@ -94,7 +94,18 @@ MongoClient.connect(url, function (err, db) {
 	 		}
   		});
 	});  
-
+	app.get("/delete-class",function(req,res){
+		var id =  req.query.id;
+		lophoc.deleteMany({_id:mongodb.ObjectId(id)}, 
+		function(err, obj) {
+	    if (err){
+	    	res.send("Fail");
+	    }else{
+	    	res.send("Success");
+	    }
+	    
+	  });
+	});
  }
 });
 
