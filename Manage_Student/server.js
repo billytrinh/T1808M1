@@ -5,6 +5,16 @@ app.listen("3003",function(){
 	console.log("server is running");
 });
 
+// config to get data from form
+var bodyParser= require("body-parser");
+var multer = require("multer");
+var upload = multer();  
+// parse application/x-www-form-urlencoded 
+app.use(bodyParser.urlencoded({ extended: true }));
+// parse application/json 
+app.use(bodyParser.json());
+app.use(upload.array());
+
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
 
@@ -128,6 +138,20 @@ MongoClient.connect(url, function (err, db) {
 	 			});
 	 		}
 		});
+	}); 
+	app.post("/them-sinh-vien",function(req,res){
+		var data = {
+			ma_lop: req.body.ma_lop,
+			ten_lop: req.body.ten_lop,
+			phong_hoc: req.body.phong_hoc,
+		};
+		lophoc.insert([data],function(err,result){
+	   		if(err){
+	   			res.send("Fail");
+	   		}else{
+	   			res.send("Success");
+	   		}
+	   	});
 	});
  }
 });
