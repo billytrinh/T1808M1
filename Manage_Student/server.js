@@ -154,6 +154,21 @@ MongoClient.connect(url, function (err, db) {
 	   		}
 	   	});
 	});
+	app.post("/update-lop-hoc",function(req,res){
+		var data = {
+			ma_lop: req.body.ma_lop,
+			ten_lop: req.body.ten_lop,
+			phong_hoc: req.body.phong_hoc,
+		};
+		lophoc.update({_id:mongodb.ObjectId(req.body._id)}, {$set: data}, 
+  			function (err, numUpdated) {
+			 	if(err){
+		   			res.send("Fail");
+		   		}else{
+		   			res.send("Success");
+		   		}
+		});
+	});
  }
 });
 

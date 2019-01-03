@@ -30,7 +30,7 @@
 					html+= '	<td>'+lophocs[i].ma_lop+'</td>';
 					html+= '	<td>'+lophocs[i].ten_lop+'</td>';
 					html+= '	<td>'+lophocs[i].phong_hoc+'</td>';
-					html+= '	<td><a href="chi-tiet-lop-hoc?id='+lophocs[i]._id+'">Chi tiet</a><a href="/delete-class?id='+lophocs[i]._id+'">Delete</a></td>';
+					html+= '	<td><a href="chi-tiet-lop-hoc?id='+lophocs[i]._id+'">Chi tiet</a><a href="/delete-class?id='+lophocs[i]._id+'">Delete</a><a href="/update.html?id='+lophocs[i]._id+'">Update</a></td>';
 					html+= '</tr>';
 				}
 				jQuery("table tbody").append(html);
