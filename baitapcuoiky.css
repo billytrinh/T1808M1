@@ -1,0 +1,373 @@
+#myCarousel.carousel.slide{
+    float: left;
+    width: 100%;
+}
+img.logo{
+    width: 140px;
+    height: 65px;
+}
+#head.col-sm-12{
+    background: black;
+}
+#search.col-sm-2{
+    float: right;
+    bottom: 25px;
+    display: inline-block;
+}
+.input-group-tho{
+    position: absolute;
+    top: -4px;
+}
+#login.col-sm-2{
+    display: inline-block;
+    left: 640px;
+    bottom: 5px;
+}
+i.fa.fa-search::before{
+    position: absolute;
+    display:inline-block;
+    top: 29px;
+    left: 13px;
+}
+ul.col-sm-10{
+    top: 25px;
+}
+ul.dropdown-menu{
+    background:currentColor;
+    margin: 20px 0 0 ;
+    width: 700px;
+    height: 280px;
+}
+ul{
+    list-style: none;
+}
+ul.left{
+    padding-left: 1px;
+}
+a#dangky{
+    color: white;
+    text-decoration: none;
+}
+a#dangky:hover{
+    color: #ff253a;
+}
+a#gioithieu{
+    color: white;
+    text-decoration: none;
+}
+a#gioithieu:hover{
+    color: #ff253a;
+}
+a.dropdown-toggle{
+    color: white;
+    text-decoration: none;
+}
+a.dropdown-toggle:hover{
+    color: #ff253a;
+}
+li.thuyen4 a{
+    color: white;
+    text-decoration: none;
+}
+li.thuyen4 a:hover{
+    color: red;
+}
+li.hang1 a{
+    color: white;
+    text-decoration:none ;
+}
+li.hang1 a:hover{
+    color: red;
+}
+li.hang2 a{
+    color:white;
+    text-decoration: none;
+}
+li.hang2 a:hover{
+    color: red;
+}
+li.hang3 a{
+    color: white;
+    text-decoration: none;
+}
+li.hang3 a:hover{
+    color: red;
+}
+#menu.col-sm-12{
+    background: black;
+}
+button.btn.btn-default{
+    padding-top: 26px;
+    padding-bottom: 17px;
+    font-size: 16px;
+    background: black;
+    border:none;
+    color: white;
+}
+button.btn.btn-default:hover{
+    color: red;
+    background: none;
+}
+.open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color:red;
+    background-color:black;
+}
+#thuyen.col-sm-12{
+    width:700px;
+    height: 270px;
+}
+img.anhthuyen{
+    width: 200px;
+    height: 105px;
+}
+#thuonghieu.col-sm-12{
+    width:650px;
+    height: 270px;
+}
+img.thuonghieu{
+    width: 100px;
+    height: 50px;
+}
+li.hang1{
+    padding-top:20px;
+}
+li.hang2{
+    padding-top: 70px;
+}
+li.hang3{
+    padding-top: 71px;
+}
+input{
+    margin-top: 14px;
+}
+input[type=search] {
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+    width: 94px;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input[type=search]:focus {
+    width: 150px;
+    background-color: #fff;
+}
+#dangnhap.col-sm-2{
+    left: 500px;
+    bottom: 5px;
+}
+a#dangnhap1{
+    text-decoration: none;
+    color: white;
+}
+a#dangnhap1:hover{
+    color: #ff253a;
+}
+h4.introduce{
+    color:white;
+    border-bottom: 4px solid white;
+}
+h2#sale1{
+    text-align: center;
+    color: black;
+}
+.sale1.col-sm-3{
+    text-align: center;
+}
+.sale1.col-sm-3:hover{
+    border:1px solid black;
+    background:mintcream;
+    box-shadow: -1px 2px 30px 5px black
+}
+h3{
+    color: black;
+}
+p.gia1{
+    color: black;
+    text-decoration:line-through;
+}
+h3.gia2{
+    color: red;
+}
+#footer.col-sm-12{
+    background: black;
+    margin-top: 10px;
+}
+li a{
+    color: white;
+    padding-bottom: 10px;
+}
+li a:hover{
+    color: red;
+}
+a.mau{
+    text-decoration: none;
+}
+ul.right{
+    position: absolute;
+    display: inline-block;
+    top: 43px;
+    left: 310px;
+}
+/*phần giới thiệu */
+
+#gioithieu1.col-sm-8{
+    top: 14px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+/*color icon*/
+i.fa-facebook-square{
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+i.fa-facebook-square:hover{
+    color: red;
+}
+i.fa-instagram{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+i.fa-instagram:hover{
+    color: red;
+}
+i.fa-google-plus-square{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+i.fa-google-plus-square:hover{
+    color: red;
+}
+i.fa-youtube{
+  color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+i.fa-youtube:hover{
+    color: red;
+}
+i.fa-twitter{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+i.fa-twitter:hover{
+    color: red;
+}
+i.fa-pinterest-p{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+i.fa-pinterest-p:hover{
+    color: red;
+}
+#theodoi2{
+    padding-top: 20px;
+}
+.popover-content {
+    height: 180px;
+    width: 200px;
+}
+
+textarea.popover-textarea {
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    box-shadow: none;
+}
+
+.popover-footer {
+    margin: 0;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #EBEBEB;
+    border-radius: 5px 5px 0 0;
+}
+
+a#tho {
+    padding: 0px 20px 20px 20px;
+    float: left;
+    vertical-align: middle;
+    width: 100px;
+    margin: 5px;
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+/*#navLogin.dropdown-toggle{*/
+    /*position: relative;*/
+    /*display: block;*/
+    /*right: 65px;*/
+    /*bottom: 10px;*/
+/*}*/
+/*#dangnhap.col-sm-2{*/
+    /*left: 570px;*/
+/*}*/
+
+/*ket
+ thuc color icon*/
+/*.sale1{*/
+
+    /*position:relative;*/
+    /*overflow: hidden;*/
+/*}*/

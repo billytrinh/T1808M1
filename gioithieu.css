@@ -1,0 +1,16 @@
+#map{
+    height: 100%;
+}
+html ,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#gioithieu1.col-sm-8{
+    display:inline-block;
+    top: 90px;
+}
+#footer.col-sm-12{
+    top: 100px;
+}
+

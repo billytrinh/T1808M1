@@ -1,0 +1,13 @@
+input #kq{
+    width: 200px;
+    height: 40px;
+}
+input{
+    padding: 13px;
+}
+input#xoa{
+    padding-left:32px ;
+}
+input.cong{
+    padding-right: 11px;
+}

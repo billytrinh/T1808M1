@@ -1,0 +1,46 @@
+.error{
+    color: red;
+}
+/*input:valid{*/
+    /*border-color:red ;*/
+/*}*/
+.xanh{
+    background: #3c763d;
+}
+.do{
+    background: #ff253a;
+}
+.vang{
+    background: goldenrod;
+}
+.cam{
+    background: #eb9316;
+}
+.den{
+    background: black;
+}
+#dangky1.col-sm-12{
+    left: 390px;
+    top: 65px;
+    width: 50%;
+    background: gainsboro;
+}
+button{
+    background: white;
+    color: black;
+}
+h2#dangky2{
+    padding-left: 260px;
+}
+#dangky3{
+    margin-left: 176px;
+}
+button#dangky4 {
+    background: red;
+    width: 300px;
+    height: 46px;
+    border: none;
+}
+#footer.col-sm-12{
+    top: 75px;
+}

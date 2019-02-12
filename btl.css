@@ -1,0 +1,165 @@
+#navbar-inverse .navbar-collapse{
+    background-color: #3c763d;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+}
+section{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+}
+/*div.container-fluid{*/
+    /*background-color: #3c763d;*/
+/*}*/
+.container-fluid{
+    background-color: #3e8f3e;
+}
+/*.navbar-inverse .navbar-nav>li>a*/
+.container-fluid{
+    padding-left:130px;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: white;
+    color: #3e8f3e ;
+}
+/*a .dropdown-toggle.tien{*!*/
+/*padding-left: 100px;*/
+/*}
+ */
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: #3e8f3e;
+}
+a.dropdown-toggle{
+    background-color: #3e8f3e;
+}
+p {
+    margin: 39px 203px 33px;
+}
+img.logo{
+    width: 300px;
+    height: 53px;
+    margin: 20px -50px 0px;
+}
+strong{
+    color:  #3e8f3e;
+}
+/*div.col-sm-12{*/
+    /*background-color: #3e8f3e;*/
+    /*background: whitesmoke;*/
+/*}*/
+a{
+    color: #3e8f3e;
+}
+a:hover{
+    background-color: #3e8f3e;
+}
+.col-sm-4.nhap{
+    padding-top: 15px;
+}
+ul.nav.navbar-nav.menu.col-sm-8{
+    margin-top: 9px;
+}
+ul.nav.navbar-nav.menu.col-sm-8:hover{
+    color: #3e8f3e;
+}
+.col-sm-12.gt{
+    font-size: 22px;
+    background:#3e8f3e;
+}
+p.gt_1{
+    color: white;
+    margin: 10px;
+}
+.col-sm-12.mid{
+    /*width:1400px;*/
+    height:600px;
+    padding-top: 50px;
+}
+.col-sm-4.may{
+    width: 500px;
+    height:600px;
+}
+.col-sm-9.mau{
+    background-color: white;
+}
+.dau{
+    border-bottom: 1px solid black;
+}
+.hai{
+    border-bottom: 1px solid black;
+}
+.ba{
+    border-bottom: 1px solid black;
+}
+a.icon{
+    color: red;
+}
+.col-sm-12.bon {
+    height: 132px;
+    background: #3e8f3e;
+    padding-left: 45px;
+}
+.col-sm-3.bon_1{
+    padding-left: 60px
+}
+.btn{
+    padding: 6px 20px;
+}
+.col-sm-12.mot_cai{
+    text-align: center;
+    padding-top: 70px;
+}
+.col-sm-12.gioithieu{
+    margin-top: 20px;
+    padding-left: 135px;
+    background:#eeeeee;
+}
+h4.gioithieu_2{
+    color: #3e8f3e;
+    border-bottom: 1px solid black;
+}
+a.chu{
+    color:black;
+}
+a.chu:hover{
+    background-color: white;
+    color: red;
+}
+.col-sm-12.dau{
+    background: #3e8f3e;
+}
+#Navbar.collapse.navbar-collapse{
+    /*margin-top: 20px;*/
+    padding-left: 75px;
+}a.dau_1{
+    color: white;
+ }
+ a.dau_1:hover{
+     color: #3c763d;
+     background-color: white;
+ }
+ .col-sm-12.nhieu_anh{
+     background: white;
+     padding-left: 170px;
+ }
+ .col-sm-12.cuoi{
+     text-align: center;
+     background: #3c763d;
+ }
+ p.cuoi_1 {
+     color: white;
+ }
+ .col-sm-6.cart_1{
+     padding-left: 133px;
+ }
+ .col-sm-6.cart_2{
+     padding-left: 75px;
+ }
