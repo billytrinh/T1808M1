@@ -3,7 +3,7 @@ var products = {
     message: "Success!",
     data: [
         {
-            image: "http://smsentertainment.club/images/img1.jpg",
+            image: "images/Aoo1.png",
             name: "Reebok Track Jacket 1",
             price: "110$"
         },
@@ -47,10 +47,6 @@ var products = {
             name: "Reebok Track Jacket 9",
             price: "390$"
         },
-        {
-            image: "http://smsentertainment.club/images/img10.jpg",
-            name: "Reebok Track Jacket 10",
-            price: "1100$"
-        }
+      
     ]
 };
