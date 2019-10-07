@@ -1,0 +1,42 @@
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-inner .prev       { left: -25%; }
+.carousel-control           { width:  4%; }
+.col-xs-3.v {
+   float: left;
+   border-color: black;
+   margin-left: 5px;
+}
+.col-xs-12 img{
+   width: 60%;
+}
+.carousel-control.left,.carousel-control.right
+ {margin-left:15px;background-image:none;}
+
+ .khung1{
+   margin-left:29px ;
+   float: left;
+   width: 200px;
+   height: 390px;
+   background-color: white;
+   overflow: hidden;
+}
+.khung1_1 img{
+    position: relative;
+    top: 21px;
+}
+.khung1:hover span a{
+   display: none;
+}
+.khung1:hover a img{
+   transform: translateY(-347px);
+}
+.khung1:hover .mau>span>img{
+   transform: translateY(-20px);
+}
+.khung1:hover .mau1>img{
+   transform: scale(1.2);
+}
+.khung1:hover p>a{
+   display: none;
+}
