@@ -1,0 +1,223 @@
+body{
+	background-color: white;
+}
+.densau{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 998;
+	background-color: black;
+	opacity: 0.5;
+	display: none;
+}
+p{
+	margin: 0 auto;
+}
+a{
+	font-size: 15px;
+	color: white; 
+	line-height: 22.5px;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;	
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+	outline: none;
+}
+a:focus{
+    text-decoration: none;
+	color: white;
+}
+.section{	
+	width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+.section_1{
+	position: fixed;
+	z-index: 999;
+}
+.section_1_left{
+	float:left;
+	height: 100%;
+	background-color: black;
+}
+.section_1_right{
+	float:left;
+	width: 55%;
+	height: 100%;
+	background-color: black;
+}
+.section_1_left img{
+	transform: scale(0.5);
+	position: relative;
+    left: -71px;
+}
+.section_1_right:hover a{
+    text-decoration: none;
+    color: white;
+}
+.section_1_left:hover a{
+    text-decoration: none;
+}
+.section_5 img{
+	width:200px;
+	height:300px;
+	border: solid 1px #eee;
+}
+.section_6 img{
+	width:200px;
+	height:300px;
+	border: solid 1px #eee;
+}
+.section_7 img{
+	width:200px;
+	height:300px;
+	border: solid 1px #eee;
+}
+.section_9 img{
+	width:200px;
+	height:300px;
+	border: solid 1px #eee;
+}
+.khung1{
+	margin-left:29px ;
+	float: left;
+	width: 200px;
+	height: 390px;
+	background-color: white;
+	overflow: hidden;
+}
+.khung1_1 img{
+    position: relative;
+    top: 21px;
+}
+.khung1:hover span a{
+	display: none;
+}
+.khung1:hover a img{
+	transform: translateY(-347px);
+}
+.khung1:hover .mau>span>img{
+	transform: translateY(-20px);
+}
+.khung1:hover .mau1>img{
+	transform: scale(1.2);
+}
+.khung1:hover p>a{
+	display: none;
+}
+.khung2{
+	margin-left:29px ;
+	display: block;
+	float: left;
+	width: 200px;
+	height: 364px;
+	background-color: white;
+	overflow: hidden;
+}
+.khung2_1 img{
+    position: relative;
+    top: 21px;
+}
+.khung2:hover a img{
+	transform: translateY(-365px);
+
+}
+.khung3{
+	margin-left:29px ;
+	display: block;
+	float: left;
+	width: 200px;
+	height: 364px;
+	background-color: white;
+	overflow: hidden;
+}
+.khung3_1 img{
+    position: relative;
+    top: 21px;
+}
+.khung3:hover a img{
+	transform: translateY(-365px);
+	opacity: 0.5;
+
+}
+.section_10 {
+	background-color:#f4f4f4;
+     width :100%;
+}
+.pay img{
+	width: 120px;
+	height: 50px;
+}
+
+.lienhe2 img{
+	width: 25px;
+	height: 25px;
+}
+.section_10 a{
+	color: black;
+}
+.section_10 span{
+	font-family: 'Dancing Script', cursive;
+	font-size: 18px;
+	position: relative;
+	top: 90px;
+	left: 455px;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #f4f6f8;color: black}
+ul li:hover ul {display: block;}
+ul li ul {
+  background-color: #f4f6f8;
+  position: absolute;
+  width: 250px;
+  display: none;
+  top: 42px;
+}
+ul li ul li {  
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {
+	background-color:#e4e6e8;
+}
+.section_1_1:hover{
+	background-color: #f4f6f8;
+	color: black;
+}
+.section_1_1:hover ul>li>a{
+    color: black;
+}
+.section_1_2:hover{
+	background-color: #f4f6f8;
+	color: black;
+}
+.section_1_2:hover ul>li>a{
+    color: black;
+}
+.section_1_3:hover{
+	background-color: #f4f6f8;
+	color: black;
+}
+.section_1_3:hover ul>li>a{
+    color: black;
+}
+.section_1_4:hover{
+	background-color: #f4f6f8;
+	color: black;
+}
+.section_1_4:hover ul>li>a{
+    color: black;
+}
